@@ -8,12 +8,14 @@ import Future from "../components/future";
 import Statistics from "../components/statistics";
 import Team from "../components/team";
 
+import Header from "../components/header"
 import Footer from "../components/footer"
 
 export default function Landing() {
   let classes = useStyles();
   return (
     <Grid container className={classes.backgroundImage}>
+      <Header/>
       <Grid item xs={12}>
         <img src={KoiLogo} className={classes.koiLogo}></img>
         <Button className={classes.buyButton}>BUY YOUR LUCK</Button>

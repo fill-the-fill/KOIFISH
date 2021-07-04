@@ -38,7 +38,7 @@ export default function Team() {
   let classes = useStyles();
 
   return (
-    <div>
+    <div id="team">
       <Typography className={classes.title}>OUR TEAM</Typography>
       <img src={GoldenFish} className={classes.goldenTitleFish}></img>
       <Grid container>

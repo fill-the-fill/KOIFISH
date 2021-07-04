@@ -3,12 +3,21 @@ import BackgroundImage from "../utils/images/BG.png"
 
 export const useStyles = makeStyles((theme) => ({
     backgroundImage: {
-        padding: '0px 100px',
-        // height: 4000,
+        // padding: '0px 100px',
         backgroundImage: `url(${BackgroundImage})`,
-        // backgroundSize: 'cover',
-        // backgroundPosition: 'center',  
-        // background: 'red' 
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+    },
+    header: {
+        background: 'transparent',
+        boxShadow: "none"
+    },
+    headerHref: {
+        textDecoration: 'none',
+        color: 'white',
+        '&:hover': {
+            color: "#C3B96C",
+         },
     },
     koiLogo: {
         width: '50%',
@@ -46,11 +55,14 @@ export const useStyles = makeStyles((theme) => ({
         padding: '0px 50px',
         marginTop: 20,
     },
-    line: {
-        width: 200
+    rockItem: {
+        paddingBottom: 40,
     },
-    futureRock: {
-        // maxWidth: 100
+    line: {
+        maxWidth: 13
+    },
+    rock: {
+        maxWidth: 250,
     },
     futureDate: {
         color: '#707070'
@@ -102,9 +114,9 @@ export const useStyles = makeStyles((theme) => ({
     footer: {
         marginTop: 'calc(5% + 60px)',
         bottom: 0,
-        textAlign: 'center',
         margin: 'auto',
-        color: 'white'
+        color: 'white',
+        paddingBottom: 10,
     },
     privacyRedirect: {
         color: 'white'

@@ -13,17 +13,17 @@ export default function Future() {
   let classes = useStyles();
 
   return (
-    <div>
+    <div id="future">
       <Typography className={classes.title}>FUTURE</Typography>
       <img src={GoldenFish} className={classes.goldenTitleFish}></img>
       <Grid container>
-        <Grid item>
+        <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
-              <img src={rock1} />
+              <img className={classes.rock} src={rock1} />
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img src={line} />
+              <img className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
               <Typography className={classes.futureDate}>Q1 2021</Typography>
@@ -39,7 +39,7 @@ export default function Future() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item>
+        <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
               <Typography className={classes.futureDate}>Q1 2021</Typography>
@@ -54,20 +54,20 @@ export default function Future() {
               </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img src={line} />
+              <img className={classes.line} src={line} />
               <Grid item xs={3} className={classes.futureRock}>
-                <img src={rock2} />
+                <img className={classes.rock} src={rock2} />
               </Grid>
             </Grid>
           </Grid>
         </Grid>
-        <Grid item>
+        <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
-              <img src={rock3} />
+              <img className={classes.rock} src={rock3} />
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img src={line} />
+              <img className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
               <Typography className={classes.futureDate}>Q1 2021</Typography>
@@ -83,7 +83,7 @@ export default function Future() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item>
+        <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
               <Typography className={classes.futureDate}>Q1 2021</Typography>
@@ -98,9 +98,9 @@ export default function Future() {
               </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img src={line} />
+              <img className={classes.line} src={line} />
               <Grid item xs={3} className={classes.futureRock}>
-                <img src={rock4} />
+                <img className={classes.rock} src={rock4} />
               </Grid>
             </Grid>
           </Grid>

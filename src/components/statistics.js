@@ -8,10 +8,11 @@ export default function Statistics() {
   let classes = useStyles();
 
   return (
-    <div>
+    <div id="statistics">
       <Typography className={classes.title}>STATISTICS</Typography>
       <img src={GoldenFish} className={classes.goldenTitleFish}></img>
       <img src={StatisticsPng} className={classes.statistics}></img>
+      
     </div>
   );
 }
