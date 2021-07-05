@@ -15,15 +15,25 @@ export default function Future() {
   return (
     <div id="future">
       <Typography className={classes.title}>FUTURE</Typography>
-      <img src={GoldenFish} className={classes.goldenTitleFish}></img>
-      <Grid container>
+      <img
+        alt="goldenFish"
+        src={GoldenFish}
+        className={classes.goldenTitleFish}
+      ></img>
+      <Grid
+        container
+        spacing={4}
+        direction="row"
+        alignItems="center"
+        justify="center"
+      >
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
-              <img className={classes.rock} src={rock1} />
+              <img alt="rock" className={classes.rock} src={rock1} />
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img className={classes.line} src={line} />
+              <img alt="line" className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
               <Typography className={classes.futureDate}>Q1 2021</Typography>
@@ -42,11 +52,13 @@ export default function Future() {
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
-              <Typography className={classes.futureDate}>Q1 2021</Typography>
-              <Typography className={classes.futureName}>
+              <Typography className={classes.futureDateRight}>
+                Q1 2021
+              </Typography>
+              <Typography className={classes.futureNameRight}>
                 Protocol Initialized
               </Typography>
-              <Typography className={classes.futureDescription}>
+              <Typography className={classes.futureDescriptionRight}>
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
                 process with WhiteBit and began legal paperwork with Bitmart.
@@ -54,20 +66,20 @@ export default function Future() {
               </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img className={classes.line} src={line} />
-              <Grid item xs={3} className={classes.futureRock}>
-                <img className={classes.rock} src={rock2} />
-              </Grid>
+              <img alt="line" className={classes.line} src={line} />
+            </Grid>
+            <Grid item xs={3} className={classes.futureRock}>
+              <img alt="rock" className={classes.rock} src={rock2} />
             </Grid>
           </Grid>
         </Grid>
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
-              <img className={classes.rock} src={rock3} />
+              <img alt="rock" className={classes.rock} src={rock3} />
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img className={classes.line} src={line} />
+              <img alt="line" className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
               <Typography className={classes.futureDate}>Q1 2021</Typography>
@@ -86,11 +98,13 @@ export default function Future() {
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
-              <Typography className={classes.futureDate}>Q1 2021</Typography>
-              <Typography className={classes.futureName}>
+              <Typography className={classes.futureDateRight}>
+                Q1 2021
+              </Typography>
+              <Typography className={classes.futureNameRight}>
                 Protocol Initialized
               </Typography>
-              <Typography className={classes.futureDescription}>
+              <Typography className={classes.futureDescriptionRight}>
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
                 process with WhiteBit and began legal paperwork with Bitmart.
@@ -98,10 +112,10 @@ export default function Future() {
               </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>
-              <img className={classes.line} src={line} />
-              <Grid item xs={3} className={classes.futureRock}>
-                <img className={classes.rock} src={rock4} />
-              </Grid>
+              <img alt="line" className={classes.line} src={line} />
+            </Grid>
+            <Grid item xs={3} className={classes.futureRock}>
+              <img alt="rock" className={classes.rock} src={rock4} />
             </Grid>
           </Grid>
         </Grid>

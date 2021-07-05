@@ -40,12 +40,23 @@ export default function Team() {
   return (
     <div id="team">
       <Typography className={classes.title}>OUR TEAM</Typography>
-      <img src={GoldenFish} className={classes.goldenTitleFish}></img>
+      <img alt="goldenFish" src={GoldenFish} className={classes.goldenTitleFish}></img>
       <Grid container>
         {team.map((member, key) => {
           return (
-            <Grid item xs={4} key={key} className={classes.member}>
-              <img src={member.img} className={classes.teamImage}></img>
+            <Grid
+              item
+              xs={12}
+              md={6}
+              lg={4}
+              key={key}
+              className={classes.member}
+            >
+              <img
+                alt="teamMember "
+                src={member.img}
+                className={classes.teamImage}
+              ></img>
               <Typography className={classes.teamName}>
                 {member.name}
               </Typography>

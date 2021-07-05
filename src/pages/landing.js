@@ -17,7 +17,7 @@ export default function Landing() {
     <Grid container className={classes.backgroundImage}>
       <Header/>
       <Grid item xs={12}>
-        <img src={KoiLogo} className={classes.koiLogo}></img>
+        <img alt="koiLogo" src={KoiLogo} className={classes.koiLogo}></img>
         <Button className={classes.buyButton}>BUY YOUR LUCK</Button>
       </Grid>
       <Grid item xs={12}>
