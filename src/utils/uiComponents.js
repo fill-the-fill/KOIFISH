@@ -25,6 +25,7 @@ export const useStyles = makeStyles((theme) => ({
     margin: "auto",
   },
   buyButton: {
+    // marginTop: 100,
     textAlign: "center",
     color: "white",
     border: "1px solid white",
@@ -101,6 +102,9 @@ export const useStyles = makeStyles((theme) => ({
   futureDescriptionRight: {
     color: "#FFFFFF",
     textAlign: "right",
+  },
+  statistic: {
+    textAlign: 'center'
   },
   statistics: {
     width: "70%",

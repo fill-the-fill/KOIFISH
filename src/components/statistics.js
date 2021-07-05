@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Typography, Grid } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
-import StatisticsPng from "../utils/images/statistics.png";
 import { useStyles } from "../utils/uiComponents";
 
 import VisibilitySensor from "react-visibility-sensor";
@@ -75,7 +74,7 @@ export default function Statistics() {
         >
           {statistics.map((statistic, key) => {
             return (
-              <Grid item key={key}>
+              <Grid item key={key} className={classes.statistic}>
                 <img
                   alt="statistica"
                   src={statistic.img}

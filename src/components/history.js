@@ -8,7 +8,7 @@ export default function History() {
   return (
     <div id="history" className={classes.history}>
       <Typography className={classes.title}>HISTORY</Typography>
-      <img src={GoldenFish} className={classes.goldenTitleFish}></img>
+      <img alt="goldenFish" src={GoldenFish} className={classes.goldenTitleFish}></img>
       <Typography className={classes.historyText}>
         The SafeMoon Protocol is a community driven, fair launched DeFi Token.
         Three simple functions occur during each trade: Reflection, LP
