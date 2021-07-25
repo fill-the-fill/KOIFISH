@@ -3,8 +3,6 @@ import { Grid, Typography } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
 import { useStyles } from "../utils/uiComponents";
 
-import Person from "../utils/images/person.jpg";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 import JonathanImg from "../utils/images/jonathan.JPG"
