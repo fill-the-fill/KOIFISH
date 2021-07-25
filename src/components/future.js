@@ -13,7 +13,7 @@ export default function Future() {
   let classes = useStyles();
 
   return (
-    <div id="future">
+    <div id="future" className={classes.futu}>
       <Typography className={classes.title}>FUTURE</Typography>
       <img
         alt="goldenFish"
@@ -22,7 +22,6 @@ export default function Future() {
       ></img>
       <Grid
         container
-        spacing={4}
         direction="row"
         alignItems="center"
         justify="center"

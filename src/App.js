@@ -5,22 +5,7 @@ import privacyPolicy from "../src/pages/privacyPolicy"
 import './App.css';
 
 const theme = createMuiTheme({
-  // typography: {
-  //   fontFamily: 'Poppins, sans-serif',
-  // },
-  // overrides: {
-  //   MuiCssBaseline: {
-  //     '@global': {
-  //       '@font-face': 'Poppins, sans-serif',
-  //     },
-  //   },
-  //   MuiDrawer: {
-  //     paperAnchorLeft: {
-  //       color: 'white',
-  //       background: '#0B0500',
-  //     }
-  //   }
-  // },
+  shadows: ["none"]
 });
 
 function App() {

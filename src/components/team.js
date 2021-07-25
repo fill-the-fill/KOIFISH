@@ -7,30 +7,30 @@ import Person from "../utils/images/person.jpg";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
+import JonathanImg from "../utils/images/jonathan.JPG"
+import MazenaImg from "../utils/images/mazena.jpg"
+
 const team = [
   {
-    img: Person,
-    name: "Bob Ross",
-    about:
-      "Lorem ipsum dollar sit amet lorem ipsum dollar sit ametLorem ipsum dollar sit amet",
-    facebook: "test",
-    linkedin: "test",
+    img: JonathanImg,
+    name: "Jonathan Mendel Gorshkov",
+    position:
+      "CEO",
+    linkedin: "https://www.linkedin.com/in/jonathan-mendel-gorshkov-797250185/",
   },
   {
-    img: Person,
-    name: "Bob Ross",
-    about:
-      "Lorem ipsum dollar sit amet lorem ipsum dollar sit ametLorem ipsum dollar sit amet",
-    facebook: "test",
-    linkedin: "test",
+    img: MazenaImg,
+    name: "Mazena Leskovica",
+    position:
+      "Marketing",
+    linkedin: "https://www.linkedin.com/in/mazena-leskovica/",
   },
   {
-    img: Person,
-    name: "Bob Ross",
-    about:
-      "Lorem ipsum dollar sit amet lorem ipsum dollar sit ametLorem ipsum dollar sit amet",
-    facebook: "test",
-    linkedin: "test",
+    img: MazenaImg,
+    name: "Fillips Ickevics",
+    position:
+      "Developer",
+    linkedin: "https://www.linkedin.com/in/fillips-ickevics-1560041b3/",
   },
 ];
 
@@ -61,13 +61,10 @@ export default function Team() {
                 {member.name}
               </Typography>
               <Typography className={classes.teamAbout}>
-                {member.about}
+                {member.position}
               </Typography>
               <Grid container>
                 <Grid item className={classes.facebookGrid}>
-                  <a href={member.facebook}>
-                    <FacebookIcon className={classes.facebookIcon} />
-                  </a>
                 </Grid>
                 <Grid item className={classes.linkedinGrid}>
                   <a href={member.linkedin}>

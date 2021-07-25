@@ -19,6 +19,10 @@ export const useStyles = makeStyles((theme) => ({
       color: "#C3B96C",
     },
   },
+  headerTypography: {
+    fontFamily: 'futura',
+    fontSize: 24
+  },
   koiLogo: {
     width: "50%",
     display: "block",
@@ -32,7 +36,8 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: 5,
     display: "block",
     margin: "auto",
-    fontSize: 20,
+    fontSize: 25,
+    fontFamily: 'futura',
     "&:hover": {
       backgroundColor: "#C3B96C",
       border: "1px solid black",
@@ -42,8 +47,9 @@ export const useStyles = makeStyles((theme) => ({
   title: {
     color: "#FFFFFF",
     textAlign: "center",
-    fontSize: 30,
     paddingTop: 90,
+    fontFamily: 'futura',
+    fontSize: 32
   },
   goldenTitleFish: {
     display: "block",
@@ -57,15 +63,29 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   historyText: {
+    fontFamily: 'futura',
+    fontSize: 24,
     color: "#FFFFFF",
     textAlign: "center",
     marginTop: 20,
+    [theme.breakpoints.down("sm")]: {
+    fontSize: 18,
+    padding: '0px 13px'
+    },
   },
   rockItem: {
-    paddingBottom: 40,
+    // paddingBottom: 40,
+    padding: '0px 0px 40px 40px'
   },
   line: {
     maxWidth: 13,
+  },
+  backgroundDrawer: {
+    position: 'fixed',
+    top: 0,
+    right: 0,
+    background: 'transparent',
+    color:'#C3B96C',
   },
   rock: {
     width: 200,
@@ -78,30 +98,51 @@ export const useStyles = makeStyles((theme) => ({
       width: 50,
     },
   },
+  future: {
+    padding: '0px 20px'
+  },
   futureContainer: {
     margin: "auto",
     display: "block",
   },
   futureDate: {
+    fontSize: 20,
+    fontFamily: 'futura',
     color: "#707070",
   },
   futureDateRight: {
+    fontSize: 20,
+    fontFamily: 'futura',
     color: "#707070",
     textAlign: "right",
   },
   futureName: {
+    fontSize: 24,
+    fontFamily: 'futura',
     color: "#C3B96C",
   },
   futureNameRight: {
+    fontSize: 24,
+    fontFamily: 'futura',
     color: "#C3B96C",
     textAlign: "right",
   },
   futureDescription: {
+    fontSize: 24,
+    fontFamily: 'futura',
     color: "#FFFFFF",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 18,
+    },
   },
   futureDescriptionRight: {
+    fontSize: 24,
+    fontFamily: 'futura',
     color: "#FFFFFF",
     textAlign: "right",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 18,
+    },
   },
   statistic: {
     textAlign: 'center'
@@ -112,15 +153,17 @@ export const useStyles = makeStyles((theme) => ({
     display: "block",
   },
   statiscticsNumbers: {
+    fontFamily: 'futura',
     color: "white",
-    fontSize: 17,
+    fontSize: 24,
   },
   statisticImg: {
     width: "30%",
   },
   statisticName: {
+    fontFamily: 'futura',
     color: "#C3B96C",
-    fontSize: 20,
+    fontSize: 26,
     paddingBottom: 7,
   },
   member: {
@@ -135,14 +178,18 @@ export const useStyles = makeStyles((theme) => ({
     display: "block",
   },
   teamName: {
+    fontFamily: 'futura',
     textAlign: "center",
     marginTop: 10,
     color: "#C3B96C",
+    fontSize: 22,
   },
   teamAbout: {
+    fontFamily: 'futura',
     textAlign: "center",
     color: "white",
     padding: "0px 50px",
+    fontSize: 20,
   },
   linkedinIcon: {
     color: "#C3B96C",
@@ -159,6 +206,7 @@ export const useStyles = makeStyles((theme) => ({
     paddingTop: 5,
   },
   footer: {
+    fontFamily: 'futura',
     marginTop: "calc(5% + 60px)",
     bottom: 0,
     margin: "auto",

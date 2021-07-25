@@ -67,14 +67,13 @@ export default function Statistics() {
       >
         <Grid
           container
-          spacing={3}
           direction="row"
           alignItems="center"
           justify="center"
         >
           {statistics.map((statistic, key) => {
             return (
-              <Grid item key={key} className={classes.statistic}>
+              <Grid item xs={6} sm={2} key={key} className={classes.statistic}>
                 <img
                   alt="statistica"
                   src={statistic.img}
