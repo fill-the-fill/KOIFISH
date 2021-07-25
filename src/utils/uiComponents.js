@@ -19,7 +19,7 @@ export const useStyles = makeStyles((theme) => ({
       color: "#C3B96C",
     },
   },
-  headerTypography: {
+  headerdiv: {
     fontFamily: 'futura',
     fontSize: 24
   },

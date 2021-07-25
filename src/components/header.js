@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {
   AppBar,
   Toolbar,
-  Typography,
+  div,
   Grid,
   useTheme,
   useMediaQuery,
@@ -45,27 +45,27 @@ export default function Header() {
           >
             <Grid item>
               <a className={classes.headerHref} href="#history">
-                <Typography className={classes.headerTypography}>History</Typography>
+                <div className={classes.headerdiv}>History</div>
               </a>
             </Grid>
             <Grid item>
               <a className={classes.headerHref} href="#future">
-                <Typography className={classes.headerTypography}>Future</Typography>
+                <div className={classes.headerdiv}>Future</div>
               </a>
             </Grid>
             <Grid item>
               <a className={classes.headerHref} href="#statistics">
-                <Typography className={classes.headerTypography}>Statistics</Typography>
+                <div className={classes.headerdiv}>Statistics</div>
               </a>
             </Grid>
             <Grid item>
               <a className={classes.headerHref} href="#team">
-                <Typography className={classes.headerTypography}>Team</Typography>
+                <div className={classes.headerdiv}>Team</div>
               </a>
             </Grid>
             <Grid item>
               <a className={classes.headerHref} href="mailto:abc@example.com">
-                <Typography className={classes.headerTypography}>Contact Us</Typography>
+                <div className={classes.headerdiv}>Contact Us</div>
               </a>
             </Grid>
           </Grid>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography, Grid } from "@material-ui/core";
+import { div, Grid } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
 import { useStyles } from "../utils/uiComponents";
 
@@ -52,7 +52,7 @@ export default function Statistics() {
 
   return (
     <div id="statistics">
-      <Typography className={classes.title}>STATISTICS</Typography>
+      <div className={classes.title}>STATISTICS</div>
       <img
         alt="goldenFish"
         src={GoldenFish}
@@ -79,17 +79,17 @@ export default function Statistics() {
                   src={statistic.img}
                   className={classes.statisticImg}
                 ></img>
-                <Typography className={classes.statisticName}>
+                <div className={classes.statisticName}>
                   {statistic.name}
-                </Typography>
-                <Typography className={classes.statiscticsNumbers}>
+                </div>
+                <div className={classes.statiscticsNumbers}>
                   <CountUp
                     start={0}
                     end={didViewCountUp ? statistic.value : 0}
                     duration={4}
                     prefix="$ "
                   ></CountUp>
-                </Typography>
+                </div>
               </Grid>
             );
           })}
