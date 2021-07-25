@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
   },
   header: {
-    background: "transparent",
+    background: "transparent !important",
     boxShadow: "none",
   },
   headerHref: {
@@ -84,7 +84,7 @@ export const useStyles = makeStyles((theme) => ({
     position: 'fixed',
     top: 0,
     right: 0,
-    background: 'transparent',
+    background: 'transparent !important',
     color:'#C3B96C',
   },
   rock: {
