@@ -215,4 +215,26 @@ export const useStyles = makeStyles((theme) => ({
   privacyRedirect: {
     color: "white",
   },
+  policy: {
+    padding: '40px 80px 0px 80px',
+    [theme.breakpoints.down("xs")]: {
+      padding: '40px 40px 0px 40px',
+    },
+  },
+  policyHeader: {
+    color: '#C3B96C',
+    fontFamily: 'futura',
+    fontSize: 34,
+    [theme.breakpoints.down("xs")]: {
+      fontSize: 28,
+    },
+  },
+  policyText: {
+    color: '#ffff',
+    fontFamily: 'futura',
+    fontSize: 24,
+    [theme.breakpoints.down("xs")]: {
+      fontSize: 18,
+    },
+  }
 }));
