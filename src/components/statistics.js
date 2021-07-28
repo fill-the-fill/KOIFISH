@@ -95,6 +95,7 @@ export default function Statistics() {
           })}
         </Grid>
       </VisibilitySensor>
+      <hr className={classes.hr}></hr>
     </div>
   );
 }

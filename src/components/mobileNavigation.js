@@ -9,22 +9,22 @@ const menulists = [
   {
     id: 1,
     name: "History",
-    link: "#history",
+    link: "##history",
   },
   {
     id: 2,
     name: "Future",
-    link: "#future",
+    link: "##future",
   },
   {
     id: 3,
     name: "Statistics",
-    link: "#statistics",
+    link: "##statistics",
   },  
   {
     id: 5,
     name: "Team",
-    link: "#team",
+    link: "##team",
   },
   {
     id: 6,

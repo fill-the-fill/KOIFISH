@@ -27,6 +27,7 @@ export default function History() {
         fish and rewarded it by turning it into a golden dragon - a symbol of
         power, determination, and strength.
       </div>
+      <hr className={classes.hr}></hr>
     </div>
   );
 }

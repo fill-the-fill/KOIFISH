@@ -42,6 +42,9 @@ export const useStyles = makeStyles((theme) => ({
       border: "1px solid black !important",
       color: "black !important",
     },
+    [theme.breakpoints.down("sm")]: {
+      marginTop: '60px !important'
+    },
   },
   title: {
     color: "#FFFFFF",
@@ -68,16 +71,26 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     marginTop: 20,
     [theme.breakpoints.down("sm")]: {
-    fontSize: 18,
-    padding: '0px 13px'
+    fontSize: 21,
+    padding: '0px 2px'
     },
   },
   rockItem: {
     // paddingBottom: 40,
-    padding: '0px 0px 40px 40px'
+    padding: '0px 0px 40px 40px',
+    [theme.breakpoints.down("sm")]: {
+      padding: '0px 0px 40px 0px',
+
+      },
   },
   line: {
     maxWidth: 13,
+  },
+  hr: {
+    marginTop: 100,
+    border: 0,
+    height: 1,
+    backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), #C3B96C, rgba(0, 0, 0, 0))'
   },
   backgroundDrawer: {
     position: 'fixed',

@@ -119,6 +119,7 @@ export default function Future() {
           </Grid>
         </Grid>
       </Grid>
+      <hr className={classes.hr}></hr>
     </div>
   );
 }

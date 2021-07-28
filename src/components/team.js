@@ -74,6 +74,7 @@ export default function Team() {
           );
         })}
       </Grid>
+      <hr className={classes.hr}></hr>
     </div>
   );
 }
