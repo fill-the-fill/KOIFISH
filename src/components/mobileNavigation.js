@@ -3,6 +3,7 @@ import { makeStyles, Collapse, Grid, List, ListItem } from "@material-ui/core";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import CloseIcon from '@material-ui/icons/Close'
 import "./style.scss";
 
 const menulists = [
@@ -66,10 +67,7 @@ const MobileMenu = ({ showMobile, setShowMobile }) => {
   return (
     <Fragment>
       <Grid className={`mobileMenu ${showMobile ? "" : "hidden"}`}>
-      {/* <img
-          src={Logo}
-          alt="logo"
-        ></img> */}
+        <CloseIcon className={classes.closeIcon}/>
         <List>
           {menulists.map((item) => {
             return (

@@ -86,6 +86,11 @@ export const useStyles = makeStyles((theme) => ({
   line: {
     maxWidth: 13,
   },
+  closeIcon: {
+    position: 'absolute',
+    right: 0,
+    top: 0
+  },
   hr: {
     marginTop: 100,
     border: 0,
