@@ -65,7 +65,7 @@ export default function Team() {
                 <Grid item className={classes.facebookGrid}>
                 </Grid>
                 <Grid item className={classes.linkedinGrid}>
-                  <a href={member.linkedin}>
+                  <a href={member.linkedin} target="_blank">
                     <LinkedInIcon className={classes.linkedinIcon} />
                   </a>
                 </Grid>

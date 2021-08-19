@@ -8,7 +8,7 @@ export default function Privacy() {
     <Grid container className={classes.policy}>
       <Grid item xs={12}>
         <div className={classes.policyText}>
-          We Koicoin (webpage), are committed to protecting any data that we
+          We Koicoin, are committed to protecting any data that we
           collect concerning you. By using our services you agree to the use of
           the data that we collect in accordance with this Privacy Policy.
         </div>
@@ -69,7 +69,7 @@ export default function Privacy() {
           recognize your account. We use cookies to save your preferences and
           login information, and provide personalized functionality. You can
           reject cookies by changing your browser settings, but be aware that
-          this will disable some of the functionality on the Safemoon website.
+          this will disable some of the functionality on the Gold Koi Coin website.
           More information about cookies can be found
           athttps://en.wikipedia.org/wiki/HTTP_cookie.
         </div>
