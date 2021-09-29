@@ -14,7 +14,7 @@ export default function Future() {
 
   return (
     <div id="future" className={classes.futu}>
-      <div className={classes.title}>FUTURE</div>
+      <div className={classes.title}>ROAD MAP</div>
       <img
         alt="goldenFish"
         src={GoldenFish}

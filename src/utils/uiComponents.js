@@ -243,6 +243,7 @@ export const useStyles = makeStyles((theme) => ({
     color: '#C3B96C',
     fontFamily: 'futura',
     fontSize: 34,
+    marginTop: 20,
     [theme.breakpoints.down("xs")]: {
       fontSize: 28,
     },
@@ -251,6 +252,7 @@ export const useStyles = makeStyles((theme) => ({
     color: '#ffff',
     fontFamily: 'futura',
     fontSize: 24,
+    marginTop: 16,
     [theme.breakpoints.down("xs")]: {
       fontSize: 18,
     },
