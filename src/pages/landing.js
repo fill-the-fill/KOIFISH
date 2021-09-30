@@ -11,7 +11,7 @@ import Team from "../components/team";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-import ScrollToTop from 'react-scroll-up';
+import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 
 export default function Landing() {
@@ -19,7 +19,7 @@ export default function Landing() {
   return (
     <Grid container className={classes.backgroundImage}>
       <Header />
-      <Grid item xs={12}>
+      <Grid item xs={12} style={{height: '100vh'}}>
         <Intro />
       </Grid>
       <Grid item xs={12}>

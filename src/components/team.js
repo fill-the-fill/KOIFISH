@@ -7,6 +7,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 import JonathanImg from "../utils/images/jonathan.JPG"
 import MazenaImg from "../utils/images/mazena.jpg"
+import FillipsImg from "../utils/images/developer.png"
 
 const team = [
   {
@@ -24,7 +25,7 @@ const team = [
     linkedin: "https://www.linkedin.com/in/mazena-leskovica/",
   },
   {
-    img: MazenaImg,
+    img: FillipsImg,
     name: "Fillips Ickevics",
     position:
       "Developer",

@@ -6,7 +6,14 @@ export default function Footer() {
 
   return (
     <div className={classes.footer}>
-      © GoldKoiCoin, 2021 All rights reserved | <a href='/privacy-policy' className={classes.privacyRedirect}>Privacy Policy</a>
+      © GoldKoiCoin, 2021 All rights reserved |{" "}
+      <a href="/privacy-policy" className={classes.privacyRedirect}>
+        Privacy Policy
+      </a>{" "}
+      |{" "}
+      <a href="/faq" className={classes.privacyRedirect}>
+        FAQ
+      </a>
     </div>
   );
 }
