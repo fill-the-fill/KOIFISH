@@ -6,6 +6,7 @@ import faqPage from "../src/pages/faq";
 import "./App.css";
 
 const mainTheme = createTheme({
+  shadows: ["none"],
   typography: {
     fontFamily: [`futura`],
     h1: {

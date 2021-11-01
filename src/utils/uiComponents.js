@@ -111,13 +111,13 @@ export const useStyles = makeStyles((theme) => ({
     display: "block",
   },
   futureDateRight: {
-    textAlign: "right",
+    textAlign: "right !important",
   },
   futureNameRight: {
-    textAlign: "right",
+    textAlign: "right !important",
   },
   futureDescriptionRight: {
-    textAlign: "right",
+    textAlign: "right !important",
   },
   statistic: {
     textAlign: "center",
@@ -153,8 +153,8 @@ export const useStyles = makeStyles((theme) => ({
     objectFit: "cover"
   },
   teamName: {
-    textAlign: "center",
-    marginTop: 10,
+    textAlign: "center !important",
+    marginTop: '10px important',
   },
   teamAbout: {
     textAlign: "center",
