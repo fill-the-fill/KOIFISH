@@ -32,6 +32,16 @@ const mainTheme = createTheme({
       color: "#C3B96C",
       textAlign: 'initial'
     },
+    h6:{
+      color: "#C3B96C",
+      fontSize: 34,
+      marginTop: 20,
+    },
+    subtitle1: {
+      color: "#ffff",
+      fontSize: 22,
+      marginTop: 16,
+    }
   },
 });
 

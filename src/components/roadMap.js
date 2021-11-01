@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, div, Typography } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
 import { useStyles } from "../utils/uiComponents";
-
+import data from "../config/index.json";
 import rock1 from "../utils/images/rock1.png";
 import rock2 from "../utils/images/rock2.png";
 import rock3 from "../utils/images/rock3.png";
@@ -10,11 +10,11 @@ import rock4 from "../utils/images/rock4.png";
 import line from "../utils/images/line.png";
 
 export default function Future() {
+  console.log(data)
   let classes = useStyles();
-
   return (
     <div id="future">
-      <Typography variant="h3">ROAD MAP</Typography>
+      <Typography variant="h3">{data.data.roadmap[0].title}</Typography>
       <img
         alt="goldenFish"
         src={GoldenFish}
@@ -30,14 +30,9 @@ export default function Future() {
               <img alt="line" className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
-              <Typography variant="h4">Q1 2021</Typography>
-              <Typography variant="h5">Protocol Initialized</Typography>
-              <Typography variant="h2">
-                We have successfully onboarded and confirmed a DogeCoin trading
-                pair with Bibipom. We have also successfully begun integration
-                process with WhiteBit and began legal paperwork with Bitmart.
-                Our team size has doubled and our marketing campaign has begun.
-              </Typography>
+              <Typography variant="h4">{data.data.roadmap[1].q}</Typography>
+              <Typography variant="h5">{data.data.roadmap[1].title}</Typography>
+              <Typography variant="h2">{data.data.roadmap[1].text}</Typography>
             </Grid>
           </Grid>
         </Grid>
@@ -45,19 +40,16 @@ export default function Future() {
           <Grid container>
             <Grid item xs={8}>
               <Typography variant="h4" className={classes.futureDateRight}>
-                Q1 2021
+                {data.data.roadmap[2].q}
               </Typography>
               <Typography variant="h5" className={classes.futureNameRight}>
-                Protocol Initialized
+                {data.data.roadmap[2].title}
               </Typography>
               <Typography
                 variant="h2"
                 className={classes.futureDescriptionRight}
               >
-                We have successfully onboarded and confirmed a DogeCoin trading
-                pair with Bibipom. We have also successfully begun integration
-                process with WhiteBit and began legal paperwork with Bitmart.
-                Our team size has doubled and our marketing campaign has begun.
+                {data.data.roadmap[2].text}
               </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>
@@ -77,14 +69,9 @@ export default function Future() {
               <img alt="line" className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
-              <Typography variant="h4">Q1 2021</Typography>
-              <Typography variant="h5">Protocol Initialized</Typography>
-              <Typography variant="h2">
-                We have successfully onboarded and confirmed a DogeCoin trading
-                pair with Bibipom. We have also successfully begun integration
-                process with WhiteBit and began legal paperwork with Bitmart.
-                Our team size has doubled and our marketing campaign has begun.
-              </Typography>
+              <Typography variant="h4">{data.data.roadmap[3].q}</Typography>
+              <Typography variant="h5">{data.data.roadmap[3].title}</Typography>
+              <Typography variant="h2">{data.data.roadmap[3].text}</Typography>
             </Grid>
           </Grid>
         </Grid>
@@ -92,19 +79,16 @@ export default function Future() {
           <Grid container>
             <Grid item xs={8}>
               <Typography variant="h4" className={classes.futureDateRight}>
-                Q1 2021
+                {data.data.roadmap[4].q}
               </Typography>
               <Typography variant="h5" className={classes.futureNameRight}>
-                Protocol Initialized
+                {data.data.roadmap[4].title}
               </Typography>
               <Typography
                 variant="h2"
                 className={classes.futureDescriptionRight}
               >
-                We have successfully onboarded and confirmed a DogeCoin trading
-                pair with Bibipom. We have also successfully begun integration
-                process with WhiteBit and began legal paperwork with Bitmart.
-                Our team size has doubled and our marketing campaign has begun.
+                {data.data.roadmap[4].text}
               </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>

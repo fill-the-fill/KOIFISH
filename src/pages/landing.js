@@ -7,7 +7,7 @@ import ICO from "../components/ico";
 import Exchange from "../components/exchange";
 import Allocation from "../components/tokenAllocation";
 import History from "../components/history";
-import RoadMap from "../components/future";
+import RoadMap from "../components/roadMap";
 // import Statistics from "../components/statistics";
 import Team from "../components/team";
 

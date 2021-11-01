@@ -215,7 +215,7 @@ export const useStyles = makeStyles((theme) => ({
     color: "#ffff",
     fontFamily: "futura",
     fontSize: 22,
-    marginTop: 16,
+    marginTop: 10,
     [theme.breakpoints.down("xs")]: {
       fontSize: 18,
     },
