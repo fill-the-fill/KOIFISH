@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
-import Intro from "../components/intro";
+// import Intro from "../components/intro";
 import ICO from "../components/ico";
 import Exchange from "../components/exchange";
 import Allocation from "../components/tokenAllocation";
