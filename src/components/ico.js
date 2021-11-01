@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Button, Paper } from "@material-ui/core";
+import { Grid, Button, Paper } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
 import IcoImg from "../utils/images/ico.png";

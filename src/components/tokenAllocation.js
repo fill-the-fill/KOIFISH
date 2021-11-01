@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
 import allocationImg from "../utils/images/allocation.png";

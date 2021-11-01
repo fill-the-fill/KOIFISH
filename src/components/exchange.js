@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Button } from "@material-ui/core";
+import { Grid, Button } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
 import exchangeImg from "../utils/images/exchange.png";
