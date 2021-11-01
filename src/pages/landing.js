@@ -7,7 +7,7 @@ import ICO from "../components/ico";
 import Exchange from "../components/exchange";
 import Allocation from "../components/tokenAllocation";
 import History from "../components/history";
-import Future from "../components/future";
+import RoadMap from "../components/future";
 // import Statistics from "../components/statistics";
 import Team from "../components/team";
 
@@ -40,7 +40,7 @@ export default function Landing() {
         <History />
       </Grid>
       <Grid item xs={12}>
-        <Future />
+        <RoadMap />
       </Grid>
       {/* <Grid item xs={12}>
         <Statistics />

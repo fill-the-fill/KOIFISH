@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { div, Grid } from "@material-ui/core";
+import {  Grid, Typography } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
 import { useStyles } from "../utils/uiComponents";
 
@@ -82,14 +82,14 @@ export default function Statistics() {
                 <div className={classes.statisticName}>
                   {statistic.name}
                 </div>
-                <div className={classes.statiscticsNumbers}>
+                <Typography variant="h2">
                   <CountUp
                     start={0}
                     end={didViewCountUp ? statistic.value : 0}
                     duration={4}
                     prefix="$ "
                   ></CountUp>
-                </div>
+                </Typography>
               </Grid>
             );
           })}

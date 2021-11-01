@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Button, Paper } from "@material-ui/core";
+import { Grid, Button, Paper, Typography } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
 import IcoImg from "../utils/images/ico.png";
@@ -13,8 +13,8 @@ export default function History() {
           <img src={IcoImg} alt="ico" style={{ width: "50%" }} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <div className={classes.icoTitle}>ICO</div>
-          <div className={classes.allocationText}>
+          <Typography variant='h1' className={classes.icoTitle}>ICO</Typography>
+          <Typography variant='h2' className={classes.allocationText}>
             Yamabuki or Golden Koi - a symbol of wealth, prosperity, and good
             fortune. A Chinese legend tells a story about a courageous school of
             fish and their difficult journey against the current of a Yellow
@@ -25,7 +25,7 @@ export default function History() {
             prosperity, and good fortune. A Chinese legend tells a story about a
             courageous school of fish and their difficult journey against the
             current of a Yellow river. When they reached the waterfall,
-          </div>
+          </Typography>
           <Button className={classes.buyButton}>BECOME FAMILY</Button>
         </Grid>
         <Grid item xs={12}>

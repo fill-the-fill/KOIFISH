@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, div } from "@material-ui/core";
+import { Grid, div, Typography } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
 import { useStyles } from "../utils/uiComponents";
 
@@ -14,7 +14,7 @@ export default function Future() {
 
   return (
     <div id="future">
-      <div className={classes.title}>ROAD MAP</div>
+      <Typography variant="h3">ROAD MAP</Typography>
       <img
         alt="goldenFish"
         src={GoldenFish}
@@ -30,30 +30,35 @@ export default function Future() {
               <img alt="line" className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
-              <div className={classes.futureDate}>Q1 2021</div>
-              <div className={classes.futureName}>Protocol Initialized</div>
-              <div className={classes.futureDescription}>
+              <Typography variant="h4">Q1 2021</Typography>
+              <Typography variant="h5">Protocol Initialized</Typography>
+              <Typography variant="h2">
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
                 process with WhiteBit and began legal paperwork with Bitmart.
                 Our team size has doubled and our marketing campaign has begun.
-              </div>
+              </Typography>
             </Grid>
           </Grid>
         </Grid>
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
-              <div className={classes.futureDateRight}>Q1 2021</div>
-              <div className={classes.futureNameRight}>
+              <Typography variant="h4" className={classes.futureDateRight}>
+                Q1 2021
+              </Typography>
+              <Typography variant="h5" className={classes.futureNameRight}>
                 Protocol Initialized
-              </div>
-              <div className={classes.futureDescriptionRight}>
+              </Typography>
+              <Typography
+                variant="h2"
+                className={classes.futureDescriptionRight}
+              >
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
                 process with WhiteBit and began legal paperwork with Bitmart.
                 Our team size has doubled and our marketing campaign has begun.
-              </div>
+              </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>
               <img alt="line" className={classes.line} src={line} />
@@ -72,30 +77,35 @@ export default function Future() {
               <img alt="line" className={classes.line} src={line} />
             </Grid>
             <Grid item xs={8}>
-              <div className={classes.futureDate}>Q1 2021</div>
-              <div className={classes.futureName}>Protocol Initialized</div>
-              <div className={classes.futureDescription}>
+              <Typography variant="h4">Q1 2021</Typography>
+              <Typography variant="h5">Protocol Initialized</Typography>
+              <Typography variant="h2">
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
                 process with WhiteBit and began legal paperwork with Bitmart.
                 Our team size has doubled and our marketing campaign has begun.
-              </div>
+              </Typography>
             </Grid>
           </Grid>
         </Grid>
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
-              <div className={classes.futureDateRight}>Q1 2021</div>
-              <div className={classes.futureNameRight}>
+              <Typography variant="h4" className={classes.futureDateRight}>
+                Q1 2021
+              </Typography>
+              <Typography variant="h5" className={classes.futureNameRight}>
                 Protocol Initialized
-              </div>
-              <div className={classes.futureDescriptionRight}>
+              </Typography>
+              <Typography
+                variant="h2"
+                className={classes.futureDescriptionRight}
+              >
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
                 process with WhiteBit and began legal paperwork with Bitmart.
                 Our team size has doubled and our marketing campaign has begun.
-              </div>
+              </Typography>
             </Grid>
             <Grid item xs={1} className={classes.line}>
               <img alt="line" className={classes.line} src={line} />

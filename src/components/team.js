@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
 import { useStyles } from "../utils/uiComponents";
 
@@ -35,7 +35,7 @@ export default function Team() {
 
   return (
     <div id="team">
-      <div className={classes.title}>OUR TEAM</div>
+      <Typography variant="h3">OUR TEAM</Typography>
       <img
         alt="goldenFish"
         src={GoldenFish}
@@ -57,8 +57,12 @@ export default function Team() {
                 src={member.img}
                 className={classes.teamImage}
               ></img>
-              <div className={classes.teamName}>{member.name}</div>
-              <div className={classes.teamAbout}>{member.position}</div>
+              <Typography variant="h5" className={classes.teamName}>
+                {member.name}
+              </Typography>
+              <Typography variant="h2" className={classes.teamAbout}>
+                {member.position}
+              </Typography>
               <Grid container>
                 <Grid item className={classes.facebookGrid}></Grid>
                 <Grid item className={classes.linkedinGrid}>

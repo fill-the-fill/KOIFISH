@@ -6,6 +6,7 @@ import {
   useTheme,
   useMediaQuery,
   IconButton,
+  Typography
 } from "@material-ui/core/";
 import { useStyles } from "../utils/uiComponents";
 import MobileNavigation from "./mobileNavigation";
@@ -68,22 +69,22 @@ export default function Header() {
               >
                 <Grid item>
                   <a className={classes.headerHref} href="#history">
-                    <div className={classes.headerdiv}>History</div>
+                    <Typography variant="h2">History</Typography>
                   </a>
                 </Grid>
                 <Grid item>
                   <a className={classes.headerHref} href="#future">
-                    <div className={classes.headerdiv}>Future</div>
+                    <Typography variant="h2">Future</Typography>
                   </a>
                 </Grid>
                 <Grid item>
                   <a className={classes.headerHref} href="#statistics">
-                    <div className={classes.headerdiv}>Statistics</div>
+                    <Typography variant="h2">Statistics</Typography>
                   </a>
                 </Grid>
                 <Grid item>
                   <a className={classes.headerHref} href="#team">
-                    <div className={classes.headerdiv}>Team</div>
+                    <Typography variant="h2">Team</Typography>
                   </a>
                 </Grid>
                 <Grid item>
@@ -91,7 +92,7 @@ export default function Header() {
                     className={classes.headerHref}
                     href="mailto:koifishcoin363@gmail.com"
                   >
-                    <div className={classes.headerdiv}>Contact Us</div>
+                    <Typography variant="h2">Contact Us</Typography>
                   </a>
                 </Grid>
               </Grid>

@@ -23,10 +23,6 @@ export const useStyles = makeStyles((theme) => ({
       color: "#C3B96C",
     },
   },
-  headerdiv: {
-    fontFamily: "futura",
-    fontSize: 22,
-  },
   koiLogo: {
     width: "50%",
     display: "block",
@@ -52,12 +48,6 @@ export const useStyles = makeStyles((theme) => ({
       marginTop: "60px !important",
     },
   },
-  title: {
-    color: "#FFFFFF",
-    textAlign: "center",
-    fontFamily: "futura",
-    fontSize: 32,
-  },
   goldenTitleFish: {
     display: "block",
     margin: "auto",
@@ -70,9 +60,6 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   historyText: {
-    fontFamily: "futura",
-    fontSize: 22,
-    color: "#FFFFFF",
     textAlign: "center",
     marginTop: 20,
     [theme.breakpoints.down("sm")]: {
@@ -123,44 +110,14 @@ export const useStyles = makeStyles((theme) => ({
     margin: "auto",
     display: "block",
   },
-  futureDate: {
-    fontSize: 20,
-    fontFamily: "futura",
-    color: "#707070",
-  },
   futureDateRight: {
-    fontSize: 20,
-    fontFamily: "futura",
-    color: "#707070",
     textAlign: "right",
-  },
-  futureName: {
-    fontSize: 22,
-    fontFamily: "futura",
-    color: "#C3B96C",
   },
   futureNameRight: {
-    fontSize: 22,
-    fontFamily: "futura",
-    color: "#C3B96C",
     textAlign: "right",
-  },
-  futureDescription: {
-    fontSize: 22,
-    fontFamily: "futura",
-    color: "#FFFFFF",
-    [theme.breakpoints.down("sm")]: {
-      fontSize: 18,
-    },
   },
   futureDescriptionRight: {
-    fontSize: 22,
-    fontFamily: "futura",
-    color: "#FFFFFF",
     textAlign: "right",
-    [theme.breakpoints.down("sm")]: {
-      fontSize: 18,
-    },
   },
   statistic: {
     textAlign: "center",
@@ -169,11 +126,6 @@ export const useStyles = makeStyles((theme) => ({
     width: "70%",
     margin: "auto",
     display: "block",
-  },
-  statiscticsNumbers: {
-    fontFamily: "futura",
-    color: "white",
-    fontSize: 22,
   },
   statisticImg: {
     width: "30%",
@@ -201,18 +153,12 @@ export const useStyles = makeStyles((theme) => ({
     objectFit: "cover"
   },
   teamName: {
-    fontFamily: "futura",
     textAlign: "center",
     marginTop: 10,
-    color: "#C3B96C",
-    fontSize: 22,
   },
   teamAbout: {
-    fontFamily: "futura",
     textAlign: "center",
-    color: "white",
     padding: "0px 50px",
-    fontSize: 20,
   },
   linkedinIcon: {
     color: "#C3B96C",
@@ -276,17 +222,10 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   exchangeTitle: {
-    color: "#FFFFFF",
-    fontFamily: "futura",
-    fontSize: 50,
     marginTop: 50,
   },
   exchangeText: {
-    fontFamily: "futura",
-    fontSize: 22,
-    color: "#FFFFFF",
     maxWidth: 550,
-    // textAlign: "center",
     [theme.breakpoints.down("sm")]: {
       fontSize: 21,
       padding: "0px 2px",
@@ -309,27 +248,17 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   allocationTitle: {
-    color: "#FFFFFF",
-    fontFamily: "futura",
-    fontSize: 50,
     textAlign: "right",
     marginTop: 100,
   },
   allocationText: {
-    fontFamily: "futura",
-    fontSize: 22,
-    color: "#FFFFFF",
     textAlign: "right",
-    // textAlign: "center",
     [theme.breakpoints.down("sm")]: {
       fontSize: 21,
       padding: "0px 2px",
     },
   },
   icoTitle: {
-    color: "#FFFFFF",
-    fontFamily: "futura",
-    fontSize: 50,
     textAlign: "right",
   },
 
