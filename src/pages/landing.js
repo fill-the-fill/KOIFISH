@@ -53,8 +53,8 @@ export default function Landing() {
           <FiChevronUp />
         </ScrollToTop>
       </div>
-      <Footer />
       </div>
+      <Footer />
     </Grid>
   );
 }
