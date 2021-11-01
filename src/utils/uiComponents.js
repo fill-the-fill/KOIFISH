@@ -298,7 +298,7 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: "5 !important",
     marginTop: "10px !important",
     fontSize: "25px !important",
-    fontFamily: "futura",
+    fontFamily: "futura !important",
     "&:hover": {
       backgroundColor: "#C3B96C !important",
       border: "1px solid black !important",
