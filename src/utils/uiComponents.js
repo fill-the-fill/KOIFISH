@@ -25,7 +25,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   headerdiv: {
     fontFamily: "futura",
-    fontSize: 24,
+    fontSize: 22,
   },
   koiLogo: {
     width: "50%",
@@ -37,11 +37,11 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center !important",
     color: "white !important",
     border: "1px solid white !important",
-    borderRadius: 5,
+    borderRadius: "5px !important",
     display: "block !important",
     margin: "auto !important",
     marginTop: "50px !important",
-    fontSize: 25,
+    fontSize: "25px !important",
     fontFamily: "futura",
     "&:hover": {
       backgroundColor: "#C3B96C !important",
@@ -71,7 +71,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   historyText: {
     fontFamily: "futura",
-    fontSize: 24,
+    fontSize: 22,
     color: "#FFFFFF",
     textAlign: "center",
     marginTop: 20,
@@ -135,18 +135,18 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "right",
   },
   futureName: {
-    fontSize: 24,
+    fontSize: 22,
     fontFamily: "futura",
     color: "#C3B96C",
   },
   futureNameRight: {
-    fontSize: 24,
+    fontSize: 22,
     fontFamily: "futura",
     color: "#C3B96C",
     textAlign: "right",
   },
   futureDescription: {
-    fontSize: 24,
+    fontSize: 22,
     fontFamily: "futura",
     color: "#FFFFFF",
     [theme.breakpoints.down("sm")]: {
@@ -154,7 +154,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   futureDescriptionRight: {
-    fontSize: 24,
+    fontSize: 22,
     fontFamily: "futura",
     color: "#FFFFFF",
     textAlign: "right",
@@ -173,7 +173,7 @@ export const useStyles = makeStyles((theme) => ({
   statiscticsNumbers: {
     fontFamily: "futura",
     color: "white",
-    fontSize: 24,
+    fontSize: 22,
   },
   statisticImg: {
     width: "30%",
@@ -198,6 +198,7 @@ export const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     borderRadius: "15%",
     margin: "auto",
+    objectFit: "cover"
   },
   teamName: {
     fontFamily: "futura",
@@ -267,7 +268,7 @@ export const useStyles = makeStyles((theme) => ({
   policyText: {
     color: "#ffff",
     fontFamily: "futura",
-    fontSize: 24,
+    fontSize: 22,
     marginTop: 16,
     [theme.breakpoints.down("xs")]: {
       fontSize: 18,
@@ -282,7 +283,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   exchangeText: {
     fontFamily: "futura",
-    fontSize: 20,
+    fontSize: 22,
     color: "#FFFFFF",
     maxWidth: 550,
     // textAlign: "center",
@@ -294,9 +295,9 @@ export const useStyles = makeStyles((theme) => ({
   whitePaperButton: {
     color: "white !important",
     border: "1px solid white !important",
-    borderRadius: 5,
+    borderRadius: "5 !important",
     marginTop: "10px !important",
-    fontSize: 25,
+    fontSize: "25px !important",
     fontFamily: "futura",
     "&:hover": {
       backgroundColor: "#C3B96C !important",
@@ -316,7 +317,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   allocationText: {
     fontFamily: "futura",
-    fontSize: 20,
+    fontSize: 22,
     color: "#FFFFFF",
     textAlign: "right",
     // textAlign: "center",
