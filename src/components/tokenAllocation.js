@@ -15,10 +15,10 @@ export default function History() {
           </div>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Typography className={classes.allocationTitle}>
+          <div className={classes.allocationTitle}>
             TOKEN ALLOCATION
-          </Typography>
-          <Typography className={classes.allocationText}>
+          </div>
+          <div className={classes.allocationText}>
             Yamabuki or Golden Koi - a symbol of wealth, prosperity, and good
             fortune. A Chinese legend tells a story about a courageous school of
             fish and their difficult journey against the current of a Yellow
@@ -26,7 +26,7 @@ export default function History() {
             back and let the stream carry them downstream. However, some of them
             remained at the bottom attempting to leap up the cascading water.
             For hundred years.
-          </Typography>
+          </div>
         </Grid>
       </Grid>
 

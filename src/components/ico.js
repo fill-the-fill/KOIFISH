@@ -13,8 +13,8 @@ export default function History() {
           <img src={IcoImg} alt="ico" style={{ width: "50%" }} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Typography className={classes.icoTitle}>ICO</Typography>
-          <Typography className={classes.allocationText}>
+          <div className={classes.icoTitle}>ICO</div>
+          <div className={classes.allocationText}>
             Yamabuki or Golden Koi - a symbol of wealth, prosperity, and good
             fortune. A Chinese legend tells a story about a courageous school of
             fish and their difficult journey against the current of a Yellow
@@ -25,7 +25,7 @@ export default function History() {
             prosperity, and good fortune. A Chinese legend tells a story about a
             courageous school of fish and their difficult journey against the
             current of a Yellow river. When they reached the waterfall,
-          </Typography>
+          </div>
           <Button className={classes.buyButton}>BECOME FAMILY</Button>
         </Grid>
         <Grid item xs={12}>
@@ -37,23 +37,23 @@ export default function History() {
           >
             <Grid xs={2}>
               <Paper elevation={0} className={classes.stageSquare}>
-                <Typography className={classes.stageText}>STAGE 1</Typography>
+                <div className={classes.stageText}>STAGE 1</div>
               </Paper>
             </Grid>
 
             <Grid xs={2}>
               <Paper elevation={0} className={classes.stageSquare}>
-                <Typography className={classes.stageText}>STAGE 2</Typography>
+                <div className={classes.stageText}>STAGE 2</div>
               </Paper>
             </Grid>
             <Grid xs={2}>
               <Paper elevation={0} className={classes.stageSquare}>
-                <Typography className={classes.stageText}>STAGE 3</Typography>
+                <div className={classes.stageText}>STAGE 3</div>
               </Paper>
             </Grid>
             <Grid xs={2}>
               <Paper elevation={0} className={classes.stageSquare}>
-                <Typography className={classes.stageText}>STAGE 4</Typography>
+                <div className={classes.stageText}>STAGE 4</div>
               </Paper>
             </Grid>
           </Grid>

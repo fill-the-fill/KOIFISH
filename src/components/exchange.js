@@ -11,10 +11,10 @@ export default function History() {
     <div>
       <Grid container id="exchange">
         <Grid item xs={12} sm={6}>
-          <Typography className={classes.exchangeTitle}>
+          <div className={classes.exchangeTitle}>
             GOLD KOI EXCHANGE
-          </Typography>
-          <Typography className={classes.exchangeText}>
+          </div>
+          <div className={classes.exchangeText}>
             Yamabuki or Golden Koi - a symbol of wealth, prosperity, and good
             fortune. A Chinese legend tells a story about a courageous school of
             fish and their difficult journey against the current of a Yellow
@@ -28,7 +28,7 @@ export default function History() {
             the efforts of the courageous fish and rewarded it by turning it
             into a golden dragon - a symbol of power, determination, and
             strength.
-          </Typography>
+          </div>
           <Button className={classes.whitePaperButton}>VIEW WHITEPAPER</Button>
         </Grid>
         <Grid item xs={12} sm={6}>

@@ -333,11 +333,11 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   stageSquare: {
-    backgroundColor: "#897f4e",
-    height: 170,
-    width: 170,
-    margin: "50px auto 0 auto",
-    borderRadius: "25%",
+    backgroundColor: "#897f4e !important",
+    height: "170 !important",
+    width: "170 !important",
+    margin: "50px auto 0 auto !important",
+    borderRadius: "25% !important",
   },
   stageText: {
     color: "#FFFFFF",
