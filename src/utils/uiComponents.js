@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import BackgroundImage from "../utils/images/BG.png";
+import BackgroundImage from "../utils/images/BG.jpg";
 
 export const useStyles = makeStyles((theme) => ({
   backgroundImage: {
@@ -7,6 +7,9 @@ export const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${BackgroundImage})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
+  },
+  introHeight: {
+    height: "100vh"
   },
   websitePadding: {
     padding: "0 150px",

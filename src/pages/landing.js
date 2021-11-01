@@ -20,39 +20,38 @@ import { FiChevronUp } from "react-icons/fi";
 export default function Landing() {
   let classes = useStyles();
   return (
-
     <Grid container className={classes.backgroundImage}>
       <Header />
-      <Grid item xs={12} style={{ height: "100vh" }}>
+      {/* <Grid item xs={12} className={classes.introHeight}>
         <Intro />
-      </Grid>
+      </Grid> */}
       <div className={classes.websitePadding}>
-      <Grid item xs={12}>
-        <ICO />
-      </Grid>
-      <Grid item xs={12}>
-        <Exchange />
-      </Grid>
-      <Grid item xs={12}>
-        <Allocation />
-      </Grid>
-      <Grid item xs={12}>
-        <History />
-      </Grid>
-      <Grid item xs={12}>
-        <RoadMap />
-      </Grid>
-      {/* <Grid item xs={12}>
+        <Grid item xs={12}>
+          <ICO />
+        </Grid>
+        <Grid item xs={12}>
+          <Exchange />
+        </Grid>
+        <Grid item xs={12}>
+          <Allocation />
+        </Grid>
+        <Grid item xs={12}>
+          <History />
+        </Grid>
+        <Grid item xs={12}>
+          <RoadMap />
+        </Grid>
+        {/* <Grid item xs={12}>
         <Statistics />
       </Grid> */}
-      <Grid item xs={12}>
-        <Team />
-      </Grid>
-      <div className="backto-top">
-        <ScrollToTop showUnder={10}>
-          <FiChevronUp />
-        </ScrollToTop>
-      </div>
+        <Grid item xs={12}>
+          <Team />
+        </Grid>
+        <div className="backto-top">
+          <ScrollToTop showUnder={10}>
+            <FiChevronUp />
+          </ScrollToTop>
+        </div>
       </div>
       <Footer />
     </Grid>
