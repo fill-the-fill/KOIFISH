@@ -18,23 +18,23 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import BrightnessMediumIcon from "@material-ui/icons/BrightnessMedium";
 
-const socials = [
-  {
-    linkedin: "https://www.linkedin.com/company/gold-koi-coin",
-    facebook: "https://www.facebook.com/GoldKoiCoin/",
-    twitter: "https://twitter.com/GoldenKoiCoin",
-    medium: "https://medium.com/@GoldKoiCoin/about",
-    github: "https://github.com/Gold-Koi-Coin",
-    telegram: "https://t.me/joinchat/3JqIlJUKun44OTM0",
-  },
-];
+import line1Img from "../utils/images/lines1.png"
+import line2Img from "../utils/images/lines2.png"
+
+const socials = {
+  linkedin: "https://www.linkedin.com/company/gold-koi-coin",
+  facebook: "https://www.facebook.com/GoldKoiCoin/",
+  twitter: "https://twitter.com/GoldenKoiCoin",
+  medium: "https://medium.com/@GoldKoiCoin/about",
+  github: "https://github.com/Gold-Koi-Coin",
+  telegram: "https://t.me/joinchat/3JqIlJUKun44OTM0",
+};
 
 export default function Header() {
   let classes = useStyles();
   const theme = useTheme();
   const md = useMediaQuery(theme.breakpoints.down("md"));
   const [showMobile, setShowMobile] = useState(false);
-  console.log();
   return (
     <AppBar className={classes.header} position="static">
       {md ? (
@@ -96,45 +96,34 @@ export default function Header() {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={2} className={classes.socialAbsolute}>
               <Grid
-                container
-                spacing={1}
-                direction="row"
-                alignItems="center"
-                justify="flex-end"
+               container
+               direction="column"
+               justifyContent="flex-end"
+               alignItems="flex-end"
                 style={{ marginTop: 25 }}
               >
-                <Grid item>
-                  <a href={socials[0].linkedin}>
+                  <img src={line1Img} className={classes.socialLine} alt="line1"/>
+                  <a href={socials.linkedin} >
                     <LinkedInIcon className={classes.linkedinIcon} />
                   </a>
-                </Grid>
-                <Grid item>
-                  <a href={socials[0].facebook}>
+                  <a href={socials.facebook}>
                     <FacebookIcon className={classes.linkedinIcon} />
                   </a>
-                </Grid>
-                <Grid item>
-                  <a href={socials[0].twitter}>
+                  <a href={socials.twitter}>
                     <TwitterIcon className={classes.linkedinIcon} />
                   </a>
-                </Grid>
-                <Grid item>
-                  <a href={socials[0].github}>
+                  <a href={socials.github}>
                     <GitHubIcon className={classes.linkedinIcon} />
                   </a>
-                </Grid>
-                <Grid item>
-                  <a href={socials[0].telegram}>
+                  <a href={socials.telegram}>
                     <TelegramIcon className={classes.linkedinIcon} />
                   </a>
-                </Grid>
-                <Grid item>
-                  <a href={socials[0].medium}>
+                  <a href={socials.medium}>
                     <BrightnessMediumIcon className={classes.linkedinIcon} />
                   </a>
-                </Grid>
+                  <img src={line2Img} className={classes.socialLine} alt="line2"/>
               </Grid>
             </Grid>
           </Grid>

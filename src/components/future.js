@@ -13,19 +13,14 @@ export default function Future() {
   let classes = useStyles();
 
   return (
-    <div id="future" className={classes.futu}>
+    <div id="future">
       <div className={classes.title}>ROAD MAP</div>
       <img
         alt="goldenFish"
         src={GoldenFish}
         className={classes.goldenTitleFish}
       ></img>
-      <Grid
-        container
-        direction="row"
-        alignItems="center"
-        justify="center"
-      >
+      <Grid container direction="row" alignItems="center" justify="center">
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
@@ -36,9 +31,7 @@ export default function Future() {
             </Grid>
             <Grid item xs={8}>
               <div className={classes.futureDate}>Q1 2021</div>
-              <div className={classes.futureName}>
-                Protocol Initialized
-              </div>
+              <div className={classes.futureName}>Protocol Initialized</div>
               <div className={classes.futureDescription}>
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
@@ -51,9 +44,7 @@ export default function Future() {
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
-              <div className={classes.futureDateRight}>
-                Q1 2021
-              </div>
+              <div className={classes.futureDateRight}>Q1 2021</div>
               <div className={classes.futureNameRight}>
                 Protocol Initialized
               </div>
@@ -82,9 +73,7 @@ export default function Future() {
             </Grid>
             <Grid item xs={8}>
               <div className={classes.futureDate}>Q1 2021</div>
-              <div className={classes.futureName}>
-                Protocol Initialized
-              </div>
+              <div className={classes.futureName}>Protocol Initialized</div>
               <div className={classes.futureDescription}>
                 We have successfully onboarded and confirmed a DogeCoin trading
                 pair with Bibipom. We have also successfully begun integration
@@ -97,9 +86,7 @@ export default function Future() {
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={8}>
-              <div className={classes.futureDateRight}>
-                Q1 2021
-              </div>
+              <div className={classes.futureDateRight}>Q1 2021</div>
               <div className={classes.futureNameRight}>
                 Protocol Initialized
               </div>

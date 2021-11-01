@@ -3,9 +3,12 @@ import { Grid } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
 import Intro from "../components/intro";
+import ICO from "../components/ico";
+import Exchange from "../components/exchange";
+import Allocation from "../components/tokenAllocation";
 import History from "../components/history";
 import Future from "../components/future";
-import Statistics from "../components/statistics";
+// import Statistics from "../components/statistics";
 import Team from "../components/team";
 
 import Header from "../components/header";
@@ -17,10 +20,21 @@ import { FiChevronUp } from "react-icons/fi";
 export default function Landing() {
   let classes = useStyles();
   return (
+
     <Grid container className={classes.backgroundImage}>
       <Header />
-      <Grid item xs={12} style={{height: '100vh'}}>
+      <Grid item xs={12} style={{ height: "100vh" }}>
         <Intro />
+      </Grid>
+      <div className={classes.websitePadding}>
+      <Grid item xs={12}>
+        <ICO />
+      </Grid>
+      <Grid item xs={12}>
+        <Exchange />
+      </Grid>
+      <Grid item xs={12}>
+        <Allocation />
       </Grid>
       <Grid item xs={12}>
         <History />
@@ -28,9 +42,9 @@ export default function Landing() {
       <Grid item xs={12}>
         <Future />
       </Grid>
-      <Grid item xs={12}>
+      {/* <Grid item xs={12}>
         <Statistics />
-      </Grid>
+      </Grid> */}
       <Grid item xs={12}>
         <Team />
       </Grid>
@@ -40,6 +54,7 @@ export default function Landing() {
         </ScrollToTop>
       </div>
       <Footer />
+      </div>
     </Grid>
   );
 }

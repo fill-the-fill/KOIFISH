@@ -1,12 +1,11 @@
 import React from "react";
-import { div } from "@material-ui/core";
 import GoldenFish from "../utils/images/golderFish.png";
 import { useStyles } from "../utils/uiComponents";
 
 export default function History() {
   let classes = useStyles();
   return (
-    <div id="history" className={classes.history}>
+    <div id="history">
       <div className={classes.title}>HISTORY</div>
       <img
         alt="goldenFish"
@@ -27,6 +26,7 @@ export default function History() {
         fish and rewarded it by turning it into a golden dragon - a symbol of
         power, determination, and strength.
       </div>
+      <hr className={classes.hr}></hr>
     </div>
   );
 }

@@ -8,6 +8,10 @@ export const useStyles = makeStyles((theme) => ({
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   },
+  websitePadding: {
+    padding: "0 150px",
+  },
+
   header: {
     background: "transparent !important",
     boxShadow: "none",
@@ -27,7 +31,7 @@ export const useStyles = makeStyles((theme) => ({
     width: "50%",
     display: "block",
     margin: "auto",
-    marginTop: 20
+    marginTop: 20,
   },
   buyButton: {
     textAlign: "center !important",
@@ -36,7 +40,7 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: 5,
     display: "block !important",
     margin: "auto !important",
-    marginTop: '50px !important',
+    marginTop: "50px !important",
     fontSize: 25,
     fontFamily: "futura",
     "&:hover": {
@@ -51,7 +55,6 @@ export const useStyles = makeStyles((theme) => ({
   title: {
     color: "#FFFFFF",
     textAlign: "center",
-    paddingTop: 90,
     fontFamily: "futura",
     fontSize: 32,
   },
@@ -78,11 +81,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   rockItem: {
-    // paddingBottom: 40,
-    padding: "0px 0px 40px 40px",
-    [theme.breakpoints.down("sm")]: {
-      padding: "0px 0px 40px 0px",
-    },
+    paddingBotto: 40,
   },
   line: {
     maxWidth: 13,
@@ -93,7 +92,7 @@ export const useStyles = makeStyles((theme) => ({
     top: 0,
   },
   hr: {
-    marginTop: 100,
+    margin: "85px 0",
     border: 0,
     height: 1,
     backgroundImage:
@@ -192,9 +191,13 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   teamImage: {
-    height: 250,
-    margin: "auto",
     display: "block",
+    width: 200,
+    height: 220,
+    backgroundPosition: "center center",
+    backgroundSize: "cover",
+    borderRadius: "15%",
+    margin: "auto",
   },
   teamName: {
     fontFamily: "futura",
@@ -212,6 +215,17 @@ export const useStyles = makeStyles((theme) => ({
   },
   linkedinIcon: {
     color: "#C3B96C",
+    border: "3px solid #C3B96C",
+    borderRadius: "100%",
+  },
+  socialsBorder: {},
+  socialLine: {
+    maxHeight: 70,
+  },
+  socialAbsolute: {
+    position: "absolute",
+    right: 0,
+    marginRight: 20,
   },
   facebookIcon: {
     color: "#C3B96C",
@@ -258,5 +272,77 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xs")]: {
       fontSize: 18,
     },
+  },
+
+  exchangeTitle: {
+    color: "#FFFFFF",
+    fontFamily: "futura",
+    fontSize: 50,
+    marginTop: 50,
+  },
+  exchangeText: {
+    fontFamily: "futura",
+    fontSize: 20,
+    color: "#FFFFFF",
+    maxWidth: 550,
+    // textAlign: "center",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 21,
+      padding: "0px 2px",
+    },
+  },
+  whitePaperButton: {
+    color: "white !important",
+    border: "1px solid white !important",
+    borderRadius: 5,
+    marginTop: "10px !important",
+    fontSize: 25,
+    fontFamily: "futura",
+    "&:hover": {
+      backgroundColor: "#C3B96C !important",
+      border: "1px solid black !important",
+      color: "black !important",
+    },
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "60px !important",
+    },
+  },
+  allocationTitle: {
+    color: "#FFFFFF",
+    fontFamily: "futura",
+    fontSize: 50,
+    textAlign: "right",
+    marginTop: 100,
+  },
+  allocationText: {
+    fontFamily: "futura",
+    fontSize: 20,
+    color: "#FFFFFF",
+    textAlign: "right",
+    // textAlign: "center",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 21,
+      padding: "0px 2px",
+    },
+  },
+  icoTitle: {
+    color: "#FFFFFF",
+    fontFamily: "futura",
+    fontSize: 50,
+    textAlign: "right",
+  },
+
+  stageSquare: {
+    backgroundColor: "#897f4e",
+    height: 170,
+    width: 170,
+    margin: "50px auto 0 auto",
+    borderRadius: "25%",
+  },
+  stageText: {
+    color: "#FFFFFF",
+    fontFamily: "futura",
+    fontSize: 30,
+    textAlign: "center",
   },
 }));
