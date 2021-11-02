@@ -67,6 +67,21 @@ export default function Header() {
                 justify="center"
                 style={{ marginTop: 10 }}
               >
+                 <Grid item>
+                  <a className={classes.headerHref} href="#ico">
+                    <Typography variant="h2">ICO</Typography>
+                  </a>
+                </Grid>
+                <Grid item>
+                  <a className={classes.headerHref} href="#exchange">
+                    <Typography variant="h2">Exchange</Typography>
+                  </a>
+                </Grid>
+                <Grid item>
+                  <a className={classes.headerHref} href="#token">
+                    <Typography variant="h2">Token</Typography>
+                  </a>
+                </Grid>
                 <Grid item>
                   <a className={classes.headerHref} href="#history">
                     <Typography variant="h2">History</Typography>
@@ -74,14 +89,14 @@ export default function Header() {
                 </Grid>
                 <Grid item>
                   <a className={classes.headerHref} href="#future">
-                    <Typography variant="h2">Future</Typography>
+                    <Typography variant="h2">Road Map</Typography>
                   </a>
                 </Grid>
-                <Grid item>
+                {/* <Grid item>
                   <a className={classes.headerHref} href="#statistics">
                     <Typography variant="h2">Statistics</Typography>
                   </a>
-                </Grid>
+                </Grid> */}
                 <Grid item>
                   <a className={classes.headerHref} href="#team">
                     <Typography variant="h2">Team</Typography>

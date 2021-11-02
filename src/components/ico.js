@@ -9,7 +9,7 @@ export default function ICO() {
   let classes = useStyles();
   return (
     <div>
-      <Grid container id="allocation">
+      <Grid container id="ico">
         <Grid item xs={12} sm={6}>
           <img src={IcoImg} alt="ico" style={{ width: "50%" }} />
         </Grid>

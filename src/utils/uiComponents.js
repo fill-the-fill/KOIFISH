@@ -5,8 +5,8 @@ export const useStyles = makeStyles((theme) => ({
   backgroundImage: {
     // padding: '0px 100px',
     backgroundImage: `url(${BackgroundImage})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
+    backgroundRepeat: "repeat",
+    backgroundSize: "contain",
   },
   introHeight: {
     height: "100vh"
@@ -167,8 +167,9 @@ export const useStyles = makeStyles((theme) => ({
     color: "#C3B96C",
     border: "3px solid #C3B96C",
     borderRadius: "100%",
+    padding: 3,
+    marginLeft: 4
   },
-  socialsBorder: {},
   socialLine: {
     maxHeight: 70,
   },
@@ -252,7 +253,6 @@ export const useStyles = makeStyles((theme) => ({
   },
   allocationTitle: {
     textAlign: "right",
-    marginTop: 100,
   },
   allocationText: {
     textAlign: "right",

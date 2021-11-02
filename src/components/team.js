@@ -12,7 +12,7 @@ import FillipsImg from "../utils/images/developer.png";
 const team = [
   {
     img: JonathanImg,
-    name: "Jonathan Pidor Gorshkov",
+    name: "Jonathan Mendel Gorshkov",
     position: "CEO",
     linkedin: "https://www.linkedin.com/in/jonathan-mendel-gorshkov-797250185/",
   },

@@ -9,26 +9,41 @@ import "./style.scss";
 const menulists = [
   {
     id: 1,
+    name: "ICO",
+    link: "##ico",
+  },
+  {
+    id: 2,
+    name: "Exchange",
+    link: "##exchange",
+  },
+  {
+    id: 3,
+    name: "Token",
+    link: "##token",
+  },
+  {
+    id: 4,
     name: "History",
     link: "##history",
   },
   {
-    id: 2,
+    id: 5,
     name: "Future",
     link: "##future",
   },
   {
-    id: 3,
+    id: 6,
     name: "Statistics",
     link: "##statistics",
   },  
   {
-    id: 5,
+    id: 7,
     name: "Team",
     link: "##team",
   },
   {
-    id: 6,
+    id: 8,
     name: "Contact Us",
     link: "mailto:abc@example.com",
   },

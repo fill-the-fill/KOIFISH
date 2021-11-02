@@ -8,7 +8,14 @@ export default function Allocation() {
   let classes = useStyles();
   return (
     <div>
-      <Grid container id="exchange" className={classes.allocation}>
+      <Grid
+        container
+        direction="row"
+        justifyContent="space-between"
+        alignItems="center"
+        id="token"
+        className={classes.allocation}
+      >
         <Grid item xs={12} sm={6}>
           <div style={{ textAlign: "center" }}>
             <img
@@ -18,7 +25,7 @@ export default function Allocation() {
             />
           </div>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={4} >
           <Typography variant="h1" className={classes.allocationTitle}>
             {data.data.allocation.title}
           </Typography>

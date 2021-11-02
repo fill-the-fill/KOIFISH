@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
-// import Intro from "../components/intro";
+import Intro from "../components/intro";
 import ICO from "../components/ico";
 import Exchange from "../components/exchange";
 import Allocation from "../components/tokenAllocation";
@@ -22,9 +22,9 @@ export default function Landing() {
   return (
     <Grid container className={classes.backgroundImage}>
       <Header />
-      {/* <Grid item xs={12} className={classes.introHeight}>
+      <Grid item xs={12} className={classes.introHeight}>
         <Intro />
-      </Grid> */}
+      </Grid>
       <div className={classes.websitePadding}>
         <Grid item xs={12}>
           <ICO />
@@ -48,7 +48,7 @@ export default function Landing() {
           <Team />
         </Grid>
         <div className="backto-top">
-          <ScrollToTop showUnder={10}>
+          <ScrollToTop showUnder={120}>
             <FiChevronUp />
           </ScrollToTop>
         </div>
