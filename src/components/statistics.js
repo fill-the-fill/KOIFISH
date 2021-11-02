@@ -69,7 +69,7 @@ export default function Statistics() {
           container
           direction="row"
           alignItems="center"
-          justify="center"
+          justifyContent="center"
         >
           {statistics.map((statistic, key) => {
             return (

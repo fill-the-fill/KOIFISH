@@ -45,8 +45,9 @@ export default function Header() {
               color="inherit"
               aria-label="menu"
               style={{ fontSize: 20 }}
+              onClick={() => setShowMobile(!showMobile)}
             >
-              <MenuIcon onClick={() => setShowMobile(!showMobile)} />
+              <MenuIcon  />
             </IconButton>
           </Toolbar>
           <MobileNavigation
@@ -64,7 +65,7 @@ export default function Header() {
                 spacing={4}
                 direction="row"
                 alignItems="center"
-                justify="center"
+                justifyContent="center"
                 style={{ marginTop: 10 }}
               >
                  <Grid item>

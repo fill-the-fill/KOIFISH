@@ -43,7 +43,7 @@ export default function Header() {
             spacing={4}
             direction="row"
             alignItems="center"
-            justify="center"
+            justifyContent="center"
           >
             <Grid item>
               <a className={classes.headerHref} href="/">

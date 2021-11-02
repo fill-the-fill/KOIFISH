@@ -10,7 +10,6 @@ import rock4 from "../utils/images/rock4.png";
 import line from "../utils/images/line.png";
 
 export default function Future() {
-  console.log(data)
   let classes = useStyles();
   return (
     <div id="future">
@@ -20,7 +19,7 @@ export default function Future() {
         src={GoldenFish}
         className={classes.goldenTitleFish}
       ></img>
-      <Grid container direction="row" alignItems="center" justify="center">
+      <Grid container direction="row" alignItems="center" justifyContent="center">
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
