@@ -18,12 +18,8 @@ export default function Landing() {
   return (
     <Grid container className={classes.backgroundImage}>
       <PrivacyHeader />
-      <Grid item xs={12}>
         <Intro />
-      </Grid>
-      <Grid item xs={12}>
         <PrivacyPolicy />
-      </Grid>
       <div className="backto-top">
         <ScrollToTop showUnder={10}>
           <FiChevronUp />

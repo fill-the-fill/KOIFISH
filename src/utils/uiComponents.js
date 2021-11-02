@@ -201,10 +201,7 @@ export const useStyles = makeStyles((theme) => ({
     color: "white",
   },
   policy: {
-    padding: "40px 80px 0px 80px",
-    [theme.breakpoints.down("xs")]: {
-      padding: "40px 40px 0px 40px",
-    },
+    padding: "0 150px",
   },
   policyHeader: {
     color: "#C3B96C",

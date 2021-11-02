@@ -28,6 +28,7 @@ export default function ICO() {
             direction="row"
             justifyContent="center"
             alignItems="center"
+            spacing={2}
           >
             <Grid xs={2}>
               <Paper elevation={0} className={classes.stageSquare}>

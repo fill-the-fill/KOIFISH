@@ -19,13 +19,13 @@ export default function Exchange() {
           </Typography>
           <Button className={classes.whitePaperButton}>VIEW WHITEPAPER</Button>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item sm={12} md={6}>
           <div style={{ textAlign: "center" }}>
-            <img src={exchangeImg} alt="exchange" />
+            <img src={exchangeImg} alt="exchange" style={{width: '40%'}}/>
             <img
               src={exchangeImg2}
               alt="exchange"
-              style={{ marginBottom: 20 }}
+              style={{ marginBottom: 20, width: '40%' }}
             />
           </div>
         </Grid>
