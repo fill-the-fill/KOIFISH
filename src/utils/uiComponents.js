@@ -13,6 +13,9 @@ export const useStyles = makeStyles((theme) => ({
   },
   websitePadding: {
     padding: "0 150px",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0 20px",
+    },
   },
 
   header: {

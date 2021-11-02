@@ -30,23 +30,23 @@ export default function ICO() {
             alignItems="center"
             spacing={2}
           >
-            <Grid item xs={2}>
+            <Grid item sm={6} md={2}>
               <Paper elevation={0} className={classes.stageSquare}>
                 <div className={classes.stageText}>STAGE 1</div>
               </Paper>
             </Grid>
 
-            <Grid item xs={2}>
+            <Grid item sm={6} md={2}>
               <Paper elevation={0} className={classes.stageSquare}>
                 <div className={classes.stageText}>STAGE 2</div>
               </Paper>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item sm={6} md={2}>
               <Paper elevation={0} className={classes.stageSquare}>
                 <div className={classes.stageText}>STAGE 3</div>
               </Paper>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item sm={6} md={2}>
               <Paper elevation={0} className={classes.stageSquare}>
                 <div className={classes.stageText}>STAGE 4</div>
               </Paper>
