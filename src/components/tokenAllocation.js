@@ -25,7 +25,7 @@ export default function Allocation() {
             />
           </div>
         </Grid>
-        <Grid item xs={12} sm={4} >
+        <Grid item xs={12} sm={4}>
           <Typography variant="h1" className={classes.allocationTitle}>
             {data.data.allocation.title}
           </Typography>
