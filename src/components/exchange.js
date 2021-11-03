@@ -20,7 +20,7 @@ export default function Exchange() {
           <Button className={classes.whitePaperButton}>VIEW WHITEPAPER</Button>
         </Grid>
         <Grid item sm={12} md={6}>
-          <div style={{ textAlign: "center" }}>
+          <div  className={classes.exchangeImages}>
             <img src={exchangeImg} alt="exchange" style={{width: '40%'}}/>
             <img
               src={exchangeImg2}

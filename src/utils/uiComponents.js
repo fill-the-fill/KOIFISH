@@ -3,7 +3,6 @@ import BackgroundImage from "../utils/images/BG.jpg";
 
 export const useStyles = makeStyles((theme) => ({
   backgroundImage: {
-    // padding: '0px 100px',
     backgroundImage: `url(${BackgroundImage})`,
     backgroundRepeat: "repeat",
     backgroundSize: "contain",
@@ -11,10 +10,17 @@ export const useStyles = makeStyles((theme) => ({
   introHeight: {
     height: "100vh"
   },
+  icoImage: {
+    width: "50%",
+    [theme.breakpoints.down("sm")]: {
+      textAlign: "center",
+      width: "70%",
+    },
+  },
   websitePadding: {
     padding: "0 150px",
     [theme.breakpoints.down("sm")]: {
-      padding: "0 20px",
+      padding: "0 40px",
     },
   },
 
@@ -51,7 +57,7 @@ export const useStyles = makeStyles((theme) => ({
       color: "black !important",
     },
     [theme.breakpoints.down("sm")]: {
-      marginTop: "60px !important",
+      marginTop: "20px !important",
     },
   },
   goldenTitleFish: {
@@ -69,8 +75,8 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     marginTop: 20,
     [theme.breakpoints.down("sm")]: {
+      textAlign: "justify",
       fontSize: 21,
-      padding: "0px 2px",
     },
   },
   rockItem: {
@@ -90,6 +96,10 @@ export const useStyles = makeStyles((theme) => ({
     height: 1,
     backgroundImage:
       "linear-gradient(to right, rgba(0, 0, 0, 0), #C3B96C, rgba(0, 0, 0, 0))",
+      [theme.breakpoints.down("sm")]: {
+        margin: "40px 0",
+
+      },
   },
   backgroundDrawer: {
     position: "fixed",
@@ -194,7 +204,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   footer: {
     fontFamily: "futura",
-    marginTop: "calc(5% + 60px)",
+    marginTop: 20,
     bottom: 0,
     margin: "auto",
     color: "white",
@@ -227,12 +237,23 @@ export const useStyles = makeStyles((theme) => ({
 
   exchangeTitle: {
     marginTop: 50,
+    [theme.breakpoints.down("xs")]: {
+      textAlign: "center",
+      marginTop: 5,
+    },
   },
   exchangeText: {
     maxWidth: 550,
     [theme.breakpoints.down("sm")]: {
+      textAlign: "justify",
       fontSize: 21,
       padding: "0px 2px",
+    },
+  },
+  exchangeImages: {
+    textAlign: "center",
+    [theme.breakpoints.down("sm")]: {
+      marginTop: 40
     },
   },
   whitePaperButton: {
@@ -248,21 +269,38 @@ export const useStyles = makeStyles((theme) => ({
       color: "black !important",
     },
     [theme.breakpoints.down("sm")]: {
-      marginTop: "60px !important",
+      marginTop: "20px !important",
+      // textAlign: "center",
+      display: 'block !important',
+      margin: "auto !important"
     },
   },
   allocationTitle: {
     textAlign: "right",
+    [theme.breakpoints.down("sm")]: {
+      textAlign: "center",
+    },
+    
   },
   allocationText: {
     textAlign: "right",
     [theme.breakpoints.down("sm")]: {
+      textAlign: "justify",
       fontSize: 21,
-      padding: "0px 2px",
+
+    },
+  },
+  allocationImage: {
+    width: "110%",
+    [theme.breakpoints.down("sm")]: {
+      width: "80%"
     },
   },
   icoTitle: {
     textAlign: "right",
+    [theme.breakpoints.down("sm")]: {
+      textAlign: "center"
+    },
   },
 
   stageSquare: {

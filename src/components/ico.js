@@ -10,8 +10,8 @@ export default function ICO() {
   return (
     <div>
       <Grid container id="ico">
-        <Grid item xs={12} sm={6}>
-          <img src={IcoImg} alt="ico" style={{ width: "50%" }} />
+        <Grid item xs={12} sm={6}  className={classes.icoImage}>
+          <img src={IcoImg} alt="ico" className={classes.icoImage}/>
         </Grid>
         <Grid item xs={12} sm={6}>
           <Typography variant="h1" className={classes.icoTitle}>

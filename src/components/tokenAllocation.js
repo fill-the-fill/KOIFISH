@@ -20,7 +20,7 @@ export default function Allocation() {
           <div style={{ textAlign: "center" }}>
             <img
               src={allocationImg}
-              style={{ width: "110%" }}
+              className={classes.allocationImage}
               alt="allocation"
             />
           </div>
