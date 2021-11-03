@@ -10,37 +10,37 @@ const menulists = [
   {
     id: 1,
     name: "ICO",
-    link: "##ico",
+    link: "#ico",
   },
   {
     id: 2,
     name: "Exchange",
-    link: "##exchange",
+    link: "#exchange",
   },
   {
     id: 3,
     name: "Token",
-    link: "##token",
+    link: "#token",
   },
   {
     id: 4,
     name: "History",
-    link: "##history",
+    link: "#history",
   },
   {
     id: 5,
     name: "Future",
-    link: "##future",
+    link: "#future",
   },
   {
     id: 6,
     name: "Statistics",
-    link: "##statistics",
+    link: "#statistics",
   },  
   {
     id: 7,
     name: "Team",
-    link: "##team",
+    link: "#team",
   },
   {
     id: 8,

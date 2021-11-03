@@ -22,6 +22,8 @@ import BrightnessMediumIcon from "@material-ui/icons/BrightnessMedium";
 import line1Img from "../utils/images/lines1.png"
 import line2Img from "../utils/images/lines2.png"
 
+import mobileLogo from "../utils/images/koiLogoMobile.png"
+
 const socials = {
   linkedin: "https://www.linkedin.com/company/gold-koi-coin",
   facebook: "https://www.facebook.com/GoldKoiCoin/",
@@ -54,6 +56,7 @@ export default function Header() {
             showMobile={showMobile}
             setShowMobile={setShowMobile}
           />
+          <img src={mobileLogo} alt="logo" className={classes.mobileLogo}/>
         </AppBar>
       ) : (
         <Toolbar>

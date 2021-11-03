@@ -8,13 +8,17 @@ export const useStyles = makeStyles((theme) => ({
     backgroundSize: "contain",
   },
   introHeight: {
-    height: "100vh"
+    height: "100vh",
+    [theme.breakpoints.down("sm")]: {
+      height: 200,
+    },
   },
   icoImage: {
     width: "50%",
     [theme.breakpoints.down("sm")]: {
       textAlign: "center",
       width: "70%",
+      marginTop: 50,
     },
   },
   websitePadding: {
@@ -40,6 +44,9 @@ export const useStyles = makeStyles((theme) => ({
     display: "block",
     margin: "auto",
     marginTop: 20,
+    [theme.breakpoints.down("sm")]: {
+      marginTop: 60,
+    },
   },
   buyButton: {
     textAlign: "center !important",
@@ -80,7 +87,9 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   rockItem: {
-    paddingBotto: 40,
+    [theme.breakpoints.down("sm")]: {
+      marginTop: 20
+    },
   },
   line: {
     maxWidth: 13,
@@ -96,10 +105,9 @@ export const useStyles = makeStyles((theme) => ({
     height: 1,
     backgroundImage:
       "linear-gradient(to right, rgba(0, 0, 0, 0), #C3B96C, rgba(0, 0, 0, 0))",
-      [theme.breakpoints.down("sm")]: {
-        margin: "40px 0",
-
-      },
+    [theme.breakpoints.down("sm")]: {
+      margin: "40px 0",
+    },
   },
   backgroundDrawer: {
     position: "fixed",
@@ -166,11 +174,11 @@ export const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     borderRadius: "15%",
     margin: "auto",
-    objectFit: "cover"
+    objectFit: "cover",
   },
   teamName: {
     textAlign: "center !important",
-    marginTop: '10px important',
+    marginTop: "10px important",
   },
   teamAbout: {
     textAlign: "center",
@@ -181,7 +189,7 @@ export const useStyles = makeStyles((theme) => ({
     border: "3px solid #C3B96C",
     borderRadius: "100%",
     padding: 3,
-    marginLeft: 4
+    marginLeft: 4,
   },
   socialLine: {
     maxHeight: 70,
@@ -215,6 +223,9 @@ export const useStyles = makeStyles((theme) => ({
   },
   policy: {
     padding: "0 150px",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0 40px",
+    },
   },
   policyHeader: {
     color: "#C3B96C",
@@ -253,7 +264,7 @@ export const useStyles = makeStyles((theme) => ({
   exchangeImages: {
     textAlign: "center",
     [theme.breakpoints.down("sm")]: {
-      marginTop: 40
+      marginTop: 40,
     },
   },
   whitePaperButton: {
@@ -271,8 +282,8 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       marginTop: "20px !important",
       // textAlign: "center",
-      display: 'block !important',
-      margin: "auto !important"
+      display: "block !important",
+      margin: "auto !important",
     },
   },
   allocationTitle: {
@@ -280,29 +291,35 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       textAlign: "center",
     },
-    
   },
   allocationText: {
     textAlign: "right",
     [theme.breakpoints.down("sm")]: {
       textAlign: "justify",
       fontSize: 21,
-
     },
   },
   allocationImage: {
     width: "110%",
     [theme.breakpoints.down("sm")]: {
-      width: "80%"
+      width: "100%",
     },
   },
   icoTitle: {
     textAlign: "right",
     [theme.breakpoints.down("sm")]: {
-      textAlign: "center"
+      textAlign: "center",
+      marginTop: 20,
     },
   },
 
+  mobileLogo: {
+    position: "fixed",
+    marginTop: 17,
+    right: 0,
+    marginRight: 25,
+    width: "7%",
+  },
   stageSquare: {
     backgroundColor: "#897f4e !important",
     height: "170px !important",

@@ -2,8 +2,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import landingPage from "../src/pages/landing";
 import privacyPolicyPage from "../src/pages/privacyPolicy";
+import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
 import faqPage from "../src/pages/faq";
 import "./App.css";
+
+const breakpoints = createBreakpoints({})
+
 
 const mainTheme = createTheme({
   shadows: ["none"],
@@ -12,6 +16,9 @@ const mainTheme = createTheme({
     h1: {
       color: "#FFFFFF",
       fontSize: 50,
+      [breakpoints.down('sm')]: {
+        fontSize: 35,
+      },
     },
     h2: {
       fontSize: 22,
