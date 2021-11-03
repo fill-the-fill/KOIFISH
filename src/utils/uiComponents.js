@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   introHeight: {
     height: "100vh",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("xs")]: {
       height: 200,
     },
   },
@@ -190,6 +190,9 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: "100%",
     padding: 3,
     marginLeft: 4,
+    "&:hover": {
+      color: '#897f4e'
+    },
   },
   socialLine: {
     maxHeight: 70,

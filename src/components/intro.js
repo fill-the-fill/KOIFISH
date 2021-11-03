@@ -13,10 +13,10 @@ import LogoTest from "../utils/images/logoTest.png"
 export default function Intro() {
   let classes = useStyles()
   const theme = useTheme()
-  const md = useMediaQuery(theme.breakpoints.down('md'))
+  const sm = useMediaQuery(theme.breakpoints.down('sm'))
   return (
     <div>
-      <img alt="koiLogo" src={md ? MobileLogo : LogoTest} className={classes.koiLogo}></img>
+      <img alt="koiLogo" src={sm ? MobileLogo : LogoTest} className={classes.koiLogo}></img>
       <Button className={classes.buyButton}>BUY YOUR LUCK</Button>
     </div>
   );

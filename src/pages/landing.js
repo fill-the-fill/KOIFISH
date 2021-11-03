@@ -17,34 +17,39 @@ import Footer from "../components/footer";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 export default function Landing() {
   let classes = useStyles();
   return (
     <Grid container className={classes.backgroundImage}>
       <Header />
-      <Grid item xs={12} className={classes.introHeight}>
+      <Grid item xs={12} className={classes.introHeight} data-aos="zoom-in">
         <Intro />
       </Grid>
       <div className={classes.websitePadding}>
-        <Grid item xs={12}>
+        <Grid item xs={12} data-aos="fade-up">
           <ICO />
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} data-aos="fade-up">
           <Exchange />
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} data-aos="fade-up">
           <Allocation />
         </Grid>
-        <Grid item xs={12}>
-          <History />
-        </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} data-aos="fade-up">
           <RoadMap />
+        </Grid>
+        <Grid item xs={12} data-aos="fade-up">
+          <History />
         </Grid>
         {/* <Grid item xs={12}>
         <Statistics />
       </Grid> */}
-        <Grid item xs={12}>
+        <Grid item xs={12} data-aos="fade-up">
           <Team />
         </Grid>
         <div className="backto-top">

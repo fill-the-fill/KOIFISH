@@ -10,7 +10,7 @@ export default function Exchange() {
   return (
     <div>
       <Grid container id="exchange">
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} md={6}>
           <Typography variant="h1" className={classes.exchangeTitle}>
             {data.data.exchange.title}
           </Typography>
@@ -19,7 +19,7 @@ export default function Exchange() {
           </Typography>
           <Button className={classes.whitePaperButton}>VIEW WHITEPAPER</Button>
         </Grid>
-        <Grid item sm={12} md={6}>
+        <Grid item xs={12} md={6}>
           <div  className={classes.exchangeImages}>
             <img src={exchangeImg} alt="exchange" style={{width: '40%'}}/>
             <img
