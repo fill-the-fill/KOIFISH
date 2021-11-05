@@ -7,16 +7,9 @@ import BackgroundImageTest from "../utils/images/BGtest.png"
 export const useStyles = makeStyles((theme) => ({
   backgroundImage: {
     backgroundImage: `url(${BackgroundImageTest})`,
-    // backgroundRepeat: "repeat",
     backgroundSize: "cover",
-    // backgroundPosition: "center center",
-
-
     [theme.breakpoints.down("sm")]: {
       backgroundImage: `url(${MobileBackground})`,
-      backgroundPosition: "center",
-      backgroundSize: "cover",
-
 
     },
   },
