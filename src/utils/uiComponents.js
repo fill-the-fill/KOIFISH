@@ -10,7 +10,9 @@ export const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     [theme.breakpoints.down("sm")]: {
       backgroundImage: `url(${MobileBackground})`,
-
+      backgroundPosition: "center center",
+      backgroundRepeat: "no-repeat",
+      
     },
   },
   introHeight: {
