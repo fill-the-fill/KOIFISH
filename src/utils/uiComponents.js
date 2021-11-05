@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${BackgroundImageTest})`,
     // backgroundRepeat: "repeat",
     backgroundSize: "cover",
-    backgroundPosition: "center center",
+    // backgroundPosition: "center center",
 
 
     [theme.breakpoints.down("sm")]: {
