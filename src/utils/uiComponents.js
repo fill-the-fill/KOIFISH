@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import BackgroundImage from "../utils/images/BG.jpg";
+import BackgroundImage from "../utils/images/BG.png";
 import MobileBackground from "../utils/images/mobileBackground.png";
 
 export const useStyles = makeStyles((theme) => ({
@@ -9,6 +9,9 @@ export const useStyles = makeStyles((theme) => ({
     backgroundSize: "contain",
     [theme.breakpoints.down("sm")]: {
       backgroundImage: `url(${MobileBackground})`,
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      transform: "scale(1.003)"
     },
   },
   introHeight: {
