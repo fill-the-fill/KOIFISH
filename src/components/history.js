@@ -1,6 +1,6 @@
 import { Typography } from "@material-ui/core";
 import React from "react";
-import GoldenFish from "../utils/images/golderFish.png";
+import GoldenFish from "../utils/images/fish.png";
 import { useStyles } from "../utils/uiComponents";
 import data from "../config/index.json";
 

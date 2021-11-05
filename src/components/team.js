@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
-import GoldenFish from "../utils/images/golderFish.png";
+import GoldenFish from "../utils/images/fish.png";
 import { useStyles } from "../utils/uiComponents";
 
 import LinkedInIcon from "@material-ui/icons/LinkedIn";

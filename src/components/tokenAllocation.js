@@ -3,6 +3,7 @@ import { Grid, Typography } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 import data from "../config/index.json";
 import allocationImg from "../utils/images/allocation.png";
+import GoldenFish from "../utils/images/fish.png";
 
 export default function Allocation() {
   let classes = useStyles();
@@ -29,6 +30,11 @@ export default function Allocation() {
           <Typography variant="h1" className={classes.allocationTitle}>
             {data.data.allocation.title}
           </Typography>
+          <img
+            alt="goldenFish"
+            src={GoldenFish}
+            className={classes.goldenTitleFish}
+          ></img>
           <Typography variant="h2" className={classes.allocationText}>
             {data.data.allocation.text}
           </Typography>

@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Button, Paper, Typography } from "@material-ui/core";
 import data from "../config/index.json";
 import { useStyles } from "../utils/uiComponents";
-
+import GoldenFish from "../utils/images/fish.png";
 import IcoImg from "../utils/images/ico.png";
 
 export default function ICO() {
@@ -17,6 +17,11 @@ export default function ICO() {
           <Typography variant="h1" className={classes.icoTitle}>
             {data.data.ico.title}
           </Typography>
+          <img
+        alt="goldenFish"
+        src={GoldenFish}
+        className={classes.goldenTitleFish}
+      ></img>
           <Typography variant="h2" className={classes.allocationText}>
             {data.data.ico.text}
           </Typography>

@@ -28,6 +28,7 @@ const mainTheme = createTheme({
       color: "#FFFFFF",
       textAlign: "center",
       fontSize: 32,
+      marginBottom: 20,
     },
     h4:{
       fontSize: 20,

@@ -4,6 +4,7 @@ import { useStyles } from "../utils/uiComponents";
 import data from "../config/index.json";
 import exchangeImg from "../utils/images/exchange.png";
 import exchangeImg2 from "../utils/images/exchange2.png";
+import GoldenFish from "../utils/images/fish.png";
 
 export default function Exchange() {
   let classes = useStyles();
@@ -14,18 +15,23 @@ export default function Exchange() {
           <Typography variant="h1" className={classes.exchangeTitle}>
             {data.data.exchange.title}
           </Typography>
+          <img
+            alt="goldenFish"
+            src={GoldenFish}
+            className={classes.goldenTitleFish}
+          ></img>
           <Typography variant="h2" className={classes.exchangeText}>
             {data.data.exchange.text}
           </Typography>
           <Button className={classes.whitePaperButton}>VIEW WHITEPAPER</Button>
         </Grid>
         <Grid item xs={12} md={6}>
-          <div  className={classes.exchangeImages}>
-            <img src={exchangeImg} alt="exchange" style={{width: '40%'}}/>
+          <div className={classes.exchangeImages}>
+            <img src={exchangeImg} alt="exchange" style={{ width: "40%" }} />
             <img
               src={exchangeImg2}
               alt="exchange"
-              style={{ marginBottom: 20, width: '40%' }}
+              style={{ marginBottom: 20, width: "40%" }}
             />
           </div>
         </Grid>

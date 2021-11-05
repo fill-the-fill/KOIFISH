@@ -1,11 +1,15 @@
 import { makeStyles } from "@material-ui/core/styles";
 import BackgroundImage from "../utils/images/BG.jpg";
+import MobileBackground from "../utils/images/mobileBackground.png";
 
 export const useStyles = makeStyles((theme) => ({
   backgroundImage: {
     backgroundImage: `url(${BackgroundImage})`,
     backgroundRepeat: "repeat",
     backgroundSize: "contain",
+    [theme.breakpoints.down("sm")]: {
+      backgroundImage: `url(${MobileBackground})`,
+    },
   },
   introHeight: {
     height: "100vh",
@@ -68,9 +72,15 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   goldenTitleFish: {
-    display: "block",
-    margin: "auto",
-    width: 70,
+    visibility: "hidden",
+    display: "none",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0 5px",
+      visibility: "visible",
+      margin: "auto",
+      display: "block",
+      width: 50,
+    },
   },
   history: {
     padding: "0 80px",
@@ -80,7 +90,6 @@ export const useStyles = makeStyles((theme) => ({
   },
   historyText: {
     textAlign: "center",
-    marginTop: 20,
     [theme.breakpoints.down("sm")]: {
       textAlign: "justify",
       fontSize: 21,
@@ -88,7 +97,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   rockItem: {
     [theme.breakpoints.down("sm")]: {
-      marginTop: 20
+      marginTop: 20,
     },
   },
   line: {
@@ -191,7 +200,7 @@ export const useStyles = makeStyles((theme) => ({
     padding: 3,
     marginLeft: 4,
     "&:hover": {
-      color: '#897f4e'
+      color: "#897f4e",
     },
   },
   socialLine: {
