@@ -6,7 +6,9 @@
         },
         "exchange": {
             "title": "GOLD KOI EXCHANGE",
-            "text": "Yamabuki or Golden Koi - a symbol of wealth, prosperity, and good fortune. A Chinese legend tells a story about a courageous school of fish and their difficult journey against the current of a Yellow river. When they reached the waterfall, many of them decided to turn back and let the stream carry them downstream. However, some of them remained at the bottom attempting to leap up the cascading water. For hundred years, local demons were closely watching the fish, mocking them by heightening the waterfall and laughing at their unsuccessful tries to get to the top, until, finally, a single koi jumped high enough to make it into the river above. The Gods noticed the efforts of the courageous fish and rewarded it by turning it into a golden dragon - a symbol of power, determination, and strength."
+            "text": "On Gold Koi Exchange users have total control of their funds and do not have to hand them over to any custodian.",
+            "text2": "You can trade digital assets directly from your wallets while depositing tokens into the robust smart contract.",
+            "text3": "The hybrid cryptocurrency exchange is undoubtedly the next generation crypto trading marketplace combining benefits from centralized and decentralized cryptocurrency exchanges."
         },
         "allocation": {
             "title": "TOKEN ALLOCATION",
@@ -20,24 +22,24 @@
                 "title": "ROAD MAP"
             },
             {
-                "q": "Q1 2021",
+                "q": "Q1 2022",
                 "title": "Protocol Initialized",
-                "text": "We have successfully onboarded and confirmed a DogeCoin trading pair with Bibipom. We have also successfully begun integration process with WhiteBit and began legal paperwork with Bitmart. Our team size has doubled and our marketing campaign has begun."
+                "text": "Launch exchange token, Launch landing website design Version 2.0, Release road map, Release white paper, Launch first marketing campaign, Acquire new partnerships in different sectors, Launch first stage of ICO (angels), Exchange development"
             },
             {
-                "q": "Q1 2021",
+                "q": "Q2 2022",
                 "title": "Protocol Initialized",
-                "text": "We have successfully onboarded and confirmed a DogeCoin trading pair with Bibipom. We have also successfully begun integration process with WhiteBit and began legal paperwork with Bitmart. Our team size has doubled and our marketing campaign has begun."
+                "text": "Demo, Launch second stage of ICO (1 Investor round), Launch second stage of ICO (2 Investor round), Launch second marketing campaign: Public on Hot ICO list, Coin Market Cap, Coingecko. Create benefit program , Acquire new partnerships in different sectors through ICO"
             },
             {
-                "q": "Q1 2021",
+                "q": "Q3 2022",
                 "title": "Protocol Initialized",
-                "text": "We have successfully onboarded and confirmed a DogeCoin trading pair with Bibipom. We have also successfully begun integration process with WhiteBit and began legal paperwork with Bitmart. Our team size has doubled and our marketing campaign has begun."
+                "text": "Launch final stage of ICO (2 Investor round), List on exchange platforms (Kucoin, Coinbase, Gate.io), Make improvements based on community feedback, Complete ICO"
             },
             {
-                "q": "Q1 2021",
+                "q": "Q4 2022",
                 "title": "Protocol Initialized",
-                "text": "We have successfully onboarded and confirmed a DogeCoin trading pair with Bibipom. We have also successfully begun integration process with WhiteBit and began legal paperwork with Bitmart. Our team size has doubled and our marketing campaign has begun."
+                "text": "Exchange release, Apply to Certik for security leaderboard"
             }
         ]
     },

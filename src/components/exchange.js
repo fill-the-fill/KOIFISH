@@ -23,6 +23,14 @@ export default function Exchange() {
           <Typography variant="h2" className={classes.exchangeText}>
             {data.data.exchange.text}
           </Typography>
+          <br></br>
+          <Typography variant="h2" className={classes.exchangeText}>
+            {data.data.exchange.text2}
+          </Typography>
+          <br></br>
+          <Typography variant="h2" className={classes.exchangeText}>
+            {data.data.exchange.text3}
+          </Typography>
           <Button className={classes.whitePaperButton}>VIEW WHITEPAPER</Button>
         </Grid>
         <Grid item xs={12} md={6}>
