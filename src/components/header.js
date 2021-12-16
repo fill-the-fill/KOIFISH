@@ -61,7 +61,7 @@ export default function Header() {
           />
           <img src={mobileLogo} alt="logo" className={classes.mobileLogo}/>
         </AppBar>
-          <Grid item xs={2} className={classes.socialAbsolute}>
+          <Grid item xs={2} className={classes.socialAbsoluteMobile}>
               <Grid
                container
                direction="column"
@@ -69,8 +69,7 @@ export default function Header() {
                alignItems="flex-end"
                 style={{ marginTop: 25 }}
               >
-                  <img src={line1Img} className={classes.socialLine} alt="line1"/>
-                  <a target="__blank" href={socials.linkedin} >
+                  <a target="__blank" href={socials.linkedin}>
                     <LinkedInIcon className={classes.linkedinIcon} />
                   </a>
                   <a target="__blank" href={socials.facebook}>
@@ -88,7 +87,6 @@ export default function Header() {
                   <a target="__blank" href={socials.medium}>
                     <AiFillMediumCircle style={{width: 23, height: 23}} className={classes.linkedinIcon}/>
                   </a>
-                  <img src={line2Img} className={classes.socialLine} alt="line2"/>
               </Grid>
             </Grid>
             </div>

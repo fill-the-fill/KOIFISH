@@ -221,6 +221,16 @@ export const useStyles = makeStyles((theme) => ({
     right: 0,
     marginRight: 20,
   },
+  socialAbsoluteMobile: {
+    marginTop: 50,
+    position: "absolute",
+    right: 0,
+    marginRight: 35,
+    [theme.breakpoints.down("xs")]: {
+      marginRight: 24,
+      marginTop: 30
+    },
+  },
   facebookIcon: {
     color: "#C3B96C",
   },
