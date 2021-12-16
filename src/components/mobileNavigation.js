@@ -82,7 +82,7 @@ const MobileMenu = ({ showMobile, setShowMobile }) => {
   return (
     <Fragment>
       <Grid className={`mobileMenu ${showMobile ? "" : "hidden"}`}>
-        <CloseIcon className={classes.closeIcon}/>
+        <CloseIcon className={classes.closeIcon} onClick={(e) => setShowMobile(false)}/>
         <List>
           {menulists.map((item) => {
             return (

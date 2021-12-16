@@ -108,7 +108,7 @@ export const useStyles = makeStyles((theme) => ({
     maxWidth: 13,
   },
   closeIcon: {
-    position: "absolute",
+    position: "fixed",
     right: 0,
     top: 0,
   },
@@ -205,6 +205,12 @@ export const useStyles = makeStyles((theme) => ({
     marginLeft: 4,
     "&:hover": {
       color: "#897f4e",
+    },
+    [theme.breakpoints.down("sm")]: {
+      border: "1px solid #C3B96C",
+      borderRadius: "100%",
+      padding: 1,
+      marginLeft: 1,
     },
   },
   socialLine: {

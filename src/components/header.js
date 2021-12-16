@@ -43,12 +43,13 @@ export default function Header() {
   return (
     <AppBar className={classes.header} position="static">
       {md ? (
+        <div>
         <AppBar position="fixed" className={classes.backgroundDrawer}>
           <Toolbar>
             <IconButton
               color="inherit"
               aria-label="menu"
-              style={{ fontSize: 20 }}
+              style={{ fontSize: 20}}
               onClick={() => setShowMobile(!showMobile)}
             >
               <MenuIcon  />
@@ -60,6 +61,37 @@ export default function Header() {
           />
           <img src={mobileLogo} alt="logo" className={classes.mobileLogo}/>
         </AppBar>
+          <Grid item xs={2} className={classes.socialAbsolute}>
+              <Grid
+               container
+               direction="column"
+               justifyContent="flex-end"
+               alignItems="flex-end"
+                style={{ marginTop: 25 }}
+              >
+                  <img src={line1Img} className={classes.socialLine} alt="line1"/>
+                  <a target="__blank" href={socials.linkedin} >
+                    <LinkedInIcon className={classes.linkedinIcon} />
+                  </a>
+                  <a target="__blank" href={socials.facebook}>
+                    <FacebookIcon className={classes.linkedinIcon} />
+                  </a>
+                  <a target="__blank" href={socials.twitter}>
+                    <TwitterIcon className={classes.linkedinIcon} />
+                  </a>
+                  <a target="__blank" href={socials.github}>
+                    <GitHubIcon className={classes.linkedinIcon} />
+                  </a>
+                  <a target="__blank" href={socials.telegram}>
+                    <TelegramIcon className={classes.linkedinIcon} />
+                  </a>
+                  <a target="__blank" href={socials.medium}>
+                    <AiFillMediumCircle style={{width: 23, height: 23}} className={classes.linkedinIcon}/>
+                  </a>
+                  <img src={line2Img} className={classes.socialLine} alt="line2"/>
+              </Grid>
+            </Grid>
+            </div>
       ) : (
         <Toolbar>
           <Grid container>
