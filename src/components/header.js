@@ -87,20 +87,15 @@ export default function Header() {
                   </a>
                 </Grid>
                 <Grid item>
+                  <a className={classes.headerHref} href="#roadmap">
+                    <Typography variant="h2">Road Map</Typography>
+                  </a>
+                </Grid>
+                <Grid item>
                   <a className={classes.headerHref} href="#history">
                     <Typography variant="h2">History</Typography>
                   </a>
                 </Grid>
-                <Grid item>
-                  <a className={classes.headerHref} href="#future">
-                    <Typography variant="h2">Road Map</Typography>
-                  </a>
-                </Grid>
-                {/* <Grid item>
-                  <a className={classes.headerHref} href="#statistics">
-                    <Typography variant="h2">Statistics</Typography>
-                  </a>
-                </Grid> */}
                 <Grid item>
                   <a className={classes.headerHref} href="#team">
                     <Typography variant="h2">Team</Typography>

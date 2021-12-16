@@ -12,7 +12,7 @@ import line from "../utils/images/line.png";
 export default function Future() {
   let classes = useStyles();
   return (
-    <div id="future">
+    <div >
       <Typography variant="h3">{data.data.roadmap[0].title}</Typography>
       <img
         alt="goldenFish"

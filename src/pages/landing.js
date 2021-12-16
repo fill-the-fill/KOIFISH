@@ -14,9 +14,6 @@ import Team from "../components/team";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-import ScrollToTop from "react-scroll-up";
-import { FiChevronUp } from "react-icons/fi";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -25,26 +22,7 @@ AOS.init();
 
 export default function Landing() {
 
-  const [showScroll, setShowScroll] = useState(false)
-
-  useEffect(()=>{
-    window.addEventListener('scroll', checkScrollTop)
-    return function cleanup() {
-      window.removeEventListener('scroll', checkScrollTop)
-    }
-  })
-
-  const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 400){
-      setShowScroll(true)
-    } else if (showScroll && window.pageYOffset <= 400){
-      setShowScroll(false)
-    }
-  };
-
-  const scrollTop = () =>{
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  };
+  //data-aos="fade-up" Animation for later, messed up redirect on the same page
 
   let classes = useStyles();
   return (
@@ -53,28 +31,26 @@ export default function Landing() {
       <Grid item xs={12} className={classes.introHeight} data-aos="zoom-in">
         <Intro />
       </Grid>
-      <div className={classes.websitePadding}>
-        <Grid item xs={12} data-aos="fade-up">
+      <div className={classes.websitePadding} >
+        <Grid item xs={12} >
           <ICO />
         </Grid>
-        <Grid item xs={12} data-aos="fade-up">
+        <Grid item xs={12} >
           <Exchange />
         </Grid>
-        <Grid item xs={12} data-aos="fade-up">
+        <Grid item xs={12} >
           <Allocation />
         </Grid>
-        <Grid item xs={12} data-aos="fade-up">
+        <Grid item xs={12} >
           <RoadMap />
         </Grid>
-        <Grid item xs={12} data-aos="fade-up">
+        <Grid item xs={12} >
           <History />
         </Grid>
-        {/* <Grid item xs={12}>
-        <Statistics />
-      </Grid> */}
-        <Grid item xs={12} data-aos="fade-up">
+        <Grid item xs={12} >
           <Team />
         </Grid>
+
       </div>
       <Footer />
     </Grid>
