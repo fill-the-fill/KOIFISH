@@ -43,7 +43,7 @@ export default function Landing() {
         <Grid item xs={12} data-aos="fade-up">
           <RoadMap />
         </Grid>
-        <Grid item xs={12} data-aos="fade-up">
+        <Grid item xs={12} data-aos="fade-up" id="history">
           <History />
         </Grid>
         {/* <Grid item xs={12}>

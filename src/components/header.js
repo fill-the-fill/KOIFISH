@@ -125,22 +125,22 @@ export default function Header() {
                 style={{ marginTop: 25 }}
               >
                   <img src={line1Img} className={classes.socialLine} alt="line1"/>
-                  <a href={socials.linkedin} >
+                  <a target="__blank" href={socials.linkedin} >
                     <LinkedInIcon className={classes.linkedinIcon} />
                   </a>
-                  <a href={socials.facebook}>
+                  <a target="__blank" href={socials.facebook}>
                     <FacebookIcon className={classes.linkedinIcon} />
                   </a>
-                  <a href={socials.twitter}>
+                  <a target="__blank" href={socials.twitter}>
                     <TwitterIcon className={classes.linkedinIcon} />
                   </a>
-                  <a href={socials.github}>
+                  <a target="__blank" href={socials.github}>
                     <GitHubIcon className={classes.linkedinIcon} />
                   </a>
-                  <a href={socials.telegram}>
+                  <a target="__blank" href={socials.telegram}>
                     <TelegramIcon className={classes.linkedinIcon} />
                   </a>
-                  <a href={socials.medium}>
+                  <a target="__blank" href={socials.medium}>
                     <BrightnessMediumIcon className={classes.linkedinIcon} />
                   </a>
                   <img src={line2Img} className={classes.socialLine} alt="line2"/>

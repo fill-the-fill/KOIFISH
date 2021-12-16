@@ -223,8 +223,9 @@ export const useStyles = makeStyles((theme) => ({
     paddingTop: 5,
   },
   linkedinGrid: {
-    marginRight: "auto",
+    margin: "auto",
     paddingTop: 5,
+
   },
   footer: {
     fontFamily: "futura",

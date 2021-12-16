@@ -7,7 +7,7 @@ import data from "../config/index.json";
 export default function History() {
   let classes = useStyles();
   return (
-    <div id="history">
+    <div >
       <Typography variant="h3"> {data.data.history.title}</Typography>
       <img
         alt="goldenFish"
