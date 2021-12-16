@@ -30,7 +30,6 @@ export default function Future() {
             </Grid>
             <Grid item xs={8}>
               <Typography variant="h4">{data.data.roadmap[1].q}</Typography>
-              <Typography variant="h5">{data.data.roadmap[1].title}</Typography>
               <Typography variant="h2">{data.data.roadmap[1].text}</Typography>
             </Grid>
           </Grid>
@@ -40,9 +39,6 @@ export default function Future() {
             <Grid item xs={8}>
               <Typography variant="h4" className={classes.futureDateRight}>
                 {data.data.roadmap[2].q}
-              </Typography>
-              <Typography variant="h5" className={classes.futureNameRight}>
-                {data.data.roadmap[2].title}
               </Typography>
               <Typography
                 variant="h2"
@@ -69,7 +65,6 @@ export default function Future() {
             </Grid>
             <Grid item xs={8}>
               <Typography variant="h4">{data.data.roadmap[3].q}</Typography>
-              <Typography variant="h5">{data.data.roadmap[3].title}</Typography>
               <Typography variant="h2">{data.data.roadmap[3].text}</Typography>
             </Grid>
           </Grid>
@@ -79,9 +74,6 @@ export default function Future() {
             <Grid item xs={8}>
               <Typography variant="h4" className={classes.futureDateRight}>
                 {data.data.roadmap[4].q}
-              </Typography>
-              <Typography variant="h5" className={classes.futureNameRight}>
-                {data.data.roadmap[4].title}
               </Typography>
               <Typography
                 variant="h2"
