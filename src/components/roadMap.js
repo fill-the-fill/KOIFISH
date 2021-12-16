@@ -99,7 +99,7 @@ export default function Future() {
           </Grid>
         </Grid>
       </Grid>
-      <hr className={classes.hr}></hr>
+      <hr className={classes.hr} id="history"></hr>
     </div>
   );
 }

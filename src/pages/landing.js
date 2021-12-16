@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Grid } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
@@ -22,7 +22,30 @@ import "aos/dist/aos.css";
 
 AOS.init();
 
+
 export default function Landing() {
+
+  const [showScroll, setShowScroll] = useState(false)
+
+  useEffect(()=>{
+    window.addEventListener('scroll', checkScrollTop)
+    return function cleanup() {
+      window.removeEventListener('scroll', checkScrollTop)
+    }
+  })
+
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 400){
+      setShowScroll(true)
+    } else if (showScroll && window.pageYOffset <= 400){
+      setShowScroll(false)
+    }
+  };
+
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
+
   let classes = useStyles();
   return (
     <Grid container className={classes.backgroundImage}>
@@ -43,7 +66,7 @@ export default function Landing() {
         <Grid item xs={12} data-aos="fade-up">
           <RoadMap />
         </Grid>
-        <Grid item xs={12} data-aos="fade-up" id="history">
+        <Grid item xs={12} data-aos="fade-up">
           <History />
         </Grid>
         {/* <Grid item xs={12}>
@@ -52,11 +75,6 @@ export default function Landing() {
         <Grid item xs={12} data-aos="fade-up">
           <Team />
         </Grid>
-        <div className="backto-top">
-          <ScrollToTop showUnder={120}>
-            <FiChevronUp />
-          </ScrollToTop>
-        </div>
       </div>
       <Footer />
     </Grid>
