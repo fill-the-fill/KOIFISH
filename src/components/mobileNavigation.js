@@ -85,10 +85,11 @@ const MobileMenu = ({ showMobile, setShowMobile }) => {
         <CloseIcon className={classes.closeIcon} onClick={(e) => setShowMobile(false)}/>
         <List>
           {menulists.map((item) => {
+            console.log(menulists)
             return (
               <ListItem key={item.id}>
                 {!item.submenu ? (
-                  <Link onClick={(e) => setShowMobile(false)}to={item.link}>{item.name}</Link>
+                  <a href={item.link} onClick={(e) => setShowMobile(false)}to={item.link}>{item.name}</a>
                 ) : (
                   <Grid
                     className="mItem"
