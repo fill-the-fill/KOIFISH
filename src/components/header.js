@@ -17,7 +17,6 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TelegramIcon from "@material-ui/icons/Telegram";
-import BrightnessMediumIcon from "@material-ui/icons/BrightnessMedium";
 
 import { AiFillMediumCircle } from "react-icons/ai";
 
@@ -44,52 +43,52 @@ export default function Header() {
     <AppBar className={classes.header} position="static">
       {md ? (
         <div>
-        <AppBar position="fixed" className={classes.backgroundDrawer}>
-          <Toolbar>
-            <IconButton
-              color="inherit"
-              aria-label="menu"
-              style={{ fontSize: 20}}
-              onClick={() => setShowMobile(!showMobile)}
-            >
-              <MenuIcon  />
-            </IconButton>
-          </Toolbar>
-          <MobileNavigation
-            showMobile={showMobile}
-            setShowMobile={setShowMobile}
-          />
-          <img src={mobileLogo} alt="logo" className={classes.mobileLogo}/>
-        </AppBar>
-          <Grid item xs={2} className={classes.socialAbsoluteMobile}>
-              <Grid
-               container
-               direction="column"
-               justifyContent="flex-end"
-               alignItems="flex-end"
-                style={{ marginTop: 25 }}
+          <AppBar position="fixed" className={classes.backgroundDrawer}>
+            <Toolbar>
+              <IconButton
+                color="inherit"
+                aria-label="menu"
+                style={{ fontSize: 20 }}
+                onClick={() => setShowMobile(!showMobile)}
               >
-                  <a target="__blank" href={socials.linkedin}>
-                    <LinkedInIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.facebook}>
-                    <FacebookIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.twitter}>
-                    <TwitterIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.github}>
-                    <GitHubIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.telegram}>
-                    <TelegramIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.medium}>
-                    <AiFillMediumCircle style={{width: 23, height: 23}} className={classes.linkedinIcon}/>
-                  </a>
-              </Grid>
+                <MenuIcon />
+              </IconButton>
+            </Toolbar>
+            <MobileNavigation
+              showMobile={showMobile}
+              setShowMobile={setShowMobile}
+            />
+            <img src={mobileLogo} alt="logo" className={classes.mobileLogo} />
+          </AppBar>
+          <Grid item xs={2} className={classes.socialAbsoluteMobile}>
+            <Grid
+              container
+              direction="column"
+              justifyContent="flex-end"
+              alignItems="flex-end"
+              style={{ marginTop: 25 }}
+            >
+              <a target="__blank" href={socials.linkedin}>
+                <LinkedInIcon className={classes.linkedinIcon} />
+              </a>
+              <a target="__blank" href={socials.facebook}>
+                <FacebookIcon className={classes.linkedinIcon} />
+              </a>
+              <a target="__blank" href={socials.twitter}>
+                <TwitterIcon className={classes.linkedinIcon} />
+              </a>
+              <a target="__blank" href={socials.github}>
+                <GitHubIcon className={classes.linkedinIcon} />
+              </a>
+              <a target="__blank" href={socials.telegram}>
+                <TelegramIcon className={classes.linkedinIcon} />
+              </a>
+              <a target="__blank" href={socials.medium}>
+                <AiFillMediumCircle style={{ width: 23, height: 23 }} className={classes.linkedinIcon} />
+              </a>
             </Grid>
-            </div>
+          </Grid>
+        </div>
       ) : (
         <Toolbar>
           <Grid container>
@@ -103,7 +102,7 @@ export default function Header() {
                 justifyContent="center"
                 style={{ marginTop: 10 }}
               >
-                 <Grid item>
+                <Grid item>
                   <a className={classes.headerHref} href="#ico">
                     <Typography variant="h2">ICO</Typography>
                   </a>
@@ -145,32 +144,32 @@ export default function Header() {
             </Grid>
             <Grid item xs={2} className={classes.socialAbsolute}>
               <Grid
-               container
-               direction="column"
-               justifyContent="flex-end"
-               alignItems="flex-end"
+                container
+                direction="column"
+                justifyContent="flex-end"
+                alignItems="flex-end"
                 style={{ marginTop: 25 }}
               >
-                  <img src={line1Img} className={classes.socialLine} alt="line1"/>
-                  <a target="__blank" href={socials.linkedin} >
-                    <LinkedInIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.facebook}>
-                    <FacebookIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.twitter}>
-                    <TwitterIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.github}>
-                    <GitHubIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.telegram}>
-                    <TelegramIcon className={classes.linkedinIcon} />
-                  </a>
-                  <a target="__blank" href={socials.medium}>
-                    <AiFillMediumCircle style={{width: 23, height: 23}} className={classes.linkedinIcon}/>
-                  </a>
-                  <img src={line2Img} className={classes.socialLine} alt="line2"/>
+                <img src={line1Img} className={classes.socialLine} alt="line1" />
+                <a target="__blank" href={socials.linkedin} >
+                  <LinkedInIcon className={classes.linkedinIcon} />
+                </a>
+                <a target="__blank" href={socials.facebook}>
+                  <FacebookIcon className={classes.linkedinIcon} />
+                </a>
+                <a target="__blank" href={socials.twitter}>
+                  <TwitterIcon className={classes.linkedinIcon} />
+                </a>
+                <a target="__blank" href={socials.github}>
+                  <GitHubIcon className={classes.linkedinIcon} />
+                </a>
+                <a target="__blank" href={socials.telegram}>
+                  <TelegramIcon className={classes.linkedinIcon} />
+                </a>
+                <a target="__blank" href={socials.medium}>
+                  <AiFillMediumCircle style={{ width: 23, height: 23 }} className={classes.linkedinIcon} />
+                </a>
+                <img src={line2Img} className={classes.socialLine} alt="line2" />
               </Grid>
             </Grid>
           </Grid>
