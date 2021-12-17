@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
       backgroundImage: `url(${MobileBackground})`,
       backgroundPosition: "center center",
       backgroundRepeat: "no-repeat",
-      
+      backgroundSize: "auto",
     },
   },
   introHeight: {
