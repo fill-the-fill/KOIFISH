@@ -21,6 +21,14 @@ export const useStyles = makeStyles((theme) => ({
       height: 200,
     },
   },
+
+  introHeightPolicy: {
+    height: "80vh",
+    [theme.breakpoints.down("xs")]: {
+      height: 150,
+    },
+  },
+
   icoImage: {
     width: "50%",
     [theme.breakpoints.down("sm")]: {
