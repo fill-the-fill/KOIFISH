@@ -30,7 +30,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   icoImage: {
-    width: "50%",
+    width: "55%",
     [theme.breakpoints.down("sm")]: {
       textAlign: "center",
       width: "70%",
