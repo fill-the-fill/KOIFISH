@@ -24,21 +24,16 @@ const menulists = [
   },
   {
     id: 4,
+    name: "Roadmap",
+    link: "#roadmap",
+  },
+  {
+    id: 5,
     name: "History",
     link: "#history",
   },
   {
-    id: 5,
-    name: "Future",
-    link: "#future",
-  },
-  {
     id: 6,
-    name: "Statistics",
-    link: "#statistics",
-  },  
-  {
-    id: 7,
     name: "Team",
     link: "#team",
   },
