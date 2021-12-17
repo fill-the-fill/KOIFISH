@@ -9,7 +9,7 @@ import GoldenFish from "../utils/images/fish.png";
 export default function Exchange() {
   let classes = useStyles();
   return (
-    <div>
+    <div id="exchange">
       <Grid container id="exchange">
         <Grid item xs={12} md={6}>
           <Typography variant="h1" className={classes.exchangeTitle}>
