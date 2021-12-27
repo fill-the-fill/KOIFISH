@@ -20,8 +20,6 @@ export default function Future() {
         className={classes.goldenTitleFish}
       ></img>
       <Grid container direction="row" alignItems="center" justifyContent="center">
-        <Grid item className={classes.rockItem}>
-          <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
               <img alt="rock" className={classes.rock} src={rock1} />
             </Grid>
@@ -31,11 +29,8 @@ export default function Future() {
             <Grid item xs={8}>
               <Typography variant="h4">{data.data.roadmap[1].q}</Typography>
               <Typography variant="h2">{data.data.roadmap[1].text}</Typography>
-            </Grid>
-          </Grid>
         </Grid>
-        <Grid item className={classes.rockItem}>
-          <Grid container>
+
             <Grid item xs={8}>
               <Typography variant="h4" className={classes.futureDateRight}>
                 {data.data.roadmap[2].q}
@@ -53,8 +48,6 @@ export default function Future() {
             <Grid item xs={3} className={classes.futureRock}>
               <img alt="rock" className={classes.rock} src={rock2} />
             </Grid>
-          </Grid>
-        </Grid>
         <Grid item className={classes.rockItem}>
           <Grid container>
             <Grid item xs={3} className={classes.futureRock}>
@@ -69,8 +62,6 @@ export default function Future() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item className={classes.rockItem}>
-          <Grid container>
             <Grid item xs={8}>
               <Typography variant="h4" className={classes.futureDateRight}>
                 {data.data.roadmap[4].q}
@@ -88,8 +79,6 @@ export default function Future() {
             <Grid item xs={3} className={classes.futureRock}>
               <img alt="rock" className={classes.rock} src={rock4} />
             </Grid>
-          </Grid>
-        </Grid>
       </Grid>
       <hr className={classes.hr} id="history"></hr>
     </div>

@@ -17,7 +17,9 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TelegramIcon from "@material-ui/icons/Telegram";
-import BrightnessMediumIcon from "@material-ui/icons/BrightnessMedium";
+
+import { AiFillMediumCircle } from "react-icons/ai";
+
 
 import line1Img from "../utils/images/lines1.png"
 import line2Img from "../utils/images/lines2.png"
@@ -141,7 +143,7 @@ export default function Header() {
                     <TelegramIcon className={classes.linkedinIcon} />
                   </a>
                   <a target="__blank" href={socials.medium}>
-                    <BrightnessMediumIcon className={classes.linkedinIcon} />
+                  <AiFillMediumCircle style={{ width: 23, height: 23 }} className={classes.linkedinIcon} />
                   </a>
                   <img src={line2Img} className={classes.socialLine} alt="line2"/>
               </Grid>

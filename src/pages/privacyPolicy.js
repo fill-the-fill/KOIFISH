@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 
-import Intro from "../components/intro";
+import Intro from "../components/introPrivacy";
 import PrivacyPolicy from "../components/privacy"
 
 import Header from "../components/privacyHeader"

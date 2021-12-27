@@ -303,7 +303,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   exchangeImages: {
-    textAlign: "center",
+    textAlign: "right",
     [theme.breakpoints.down("sm")]: {
       marginTop: 40,
     },
