@@ -391,19 +391,19 @@ export const useStyles = makeStyles((theme) => ({
   },
   stageText: {
     color: "#FFFFFF",
-    fontSize: 30,
+    fontSize: '30px !important',
     textAlign: "center",
     marginBottom: 7,
   },
   stageText2: {
     color: "#C3B96C",
-    fontSize: 27,
+    fontSize: '27px !important',
     textAlign: "center !important",
     marginTop: '3px !important'
   },
   stageText3: {
     color: "#FFFFFF",
-    fontSize: 27,
+    fontSize: '27px !important',
     textAlign: "center",
   },
 }));
