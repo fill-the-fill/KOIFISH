@@ -384,8 +384,8 @@ export const useStyles = makeStyles((theme) => ({
   stageSquare: {
     backgroundColor: "#72878e !important",
     opacity: '0.9',
-    height: "300px !important",
-    width: "300px !important",
+    height: "260px !important",
+    width: "260px !important",
     margin: "50px auto 0 auto !important",
     borderRadius: "15% !important",
   },
