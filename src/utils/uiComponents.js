@@ -391,15 +391,15 @@ export const useStyles = makeStyles((theme) => ({
   },
   stageText: {
     color: "#FFFFFF",
-    fontFamily: "futura",
+    fontFamily: "futura !important",
     fontSize: 30,
     textAlign: "center",
     marginBottom: 10,
-    fontWeight: 'bold',
+    fontWeight: 'bold ',
   },
   stageText2: {
     color: "#C3B96C",
-    fontFamily: "futura",
+    fontFamily: "futura !important",
     fontSize: 23,
     textAlign: "center",
     fontWeight: 'bold',
@@ -407,7 +407,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   stageText3: {
     color: "#FFFFFF",
-    fontFamily: "futura",
+    fontFamily: "futura !important",
     fontSize: 27,
     textAlign: "center",
   },
