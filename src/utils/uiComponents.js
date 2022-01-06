@@ -398,7 +398,8 @@ export const useStyles = makeStyles((theme) => ({
   stageText2: {
     color: "#C3B96C",
     fontSize: 27,
-    textAlign: "center",
+    textAlign: "center !important",
+    marginTop: '3px !important'
   },
   stageText3: {
     color: "#FFFFFF",
