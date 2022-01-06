@@ -38,11 +38,11 @@ export default function ICO() {
             <Grid item xs={12} sm={4}>
               <Paper elevation={0} className={classes.stageSquare}>
                 <Typography variant="h1" className={classes.stageText}>STAGE 1</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Circulation Supply</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Circulation Supply</Typography>
                 <Typography variant="h2" className={classes.stageText3}>10 000 000</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Token Price</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Token Price</Typography>
                 <Typography variant="h2" className={classes.stageText3}>$ 0.0066</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Duration</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Duration</Typography>
                 <Typography variant="h2" className={classes.stageText3}>2 weeks</Typography>
               </Paper>
             </Grid>
@@ -50,22 +50,22 @@ export default function ICO() {
             <Grid item xs={12} sm={4}>
             <Paper elevation={0} className={classes.stageSquare}>
                 <Typography variant="h1" className={classes.stageText}>STAGE 2</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Circulation Supply</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Circulation Supply</Typography>
                 <Typography variant="h2" className={classes.stageText3}>33 000 000</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Token Price</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Token Price</Typography>
                 <Typography variant="h2" className={classes.stageText3}>$ 0.022</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Duration</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Duration</Typography>
                 <Typography variant="h2" className={classes.stageText3}>1 month</Typography>
               </Paper>
             </Grid>
             <Grid item xs={12} sm={4}>
             <Paper elevation={0} className={classes.stageSquare}>
                 <Typography variant="h1" className={classes.stageText}>STAGE 3</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Circulation Supply</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Circulation Supply</Typography>
                 <Typography variant="h2" className={classes.stageText3}>33 000 000</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Token Price</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Token Price</Typography>
                 <Typography variant="h2" className={classes.stageText3}>$ 0.033</Typography>
-                <Typography variant="h2" className={classes.stageText2}>Duration</Typography>
+                <Typography variant="h5" className={classes.stageText2}>Duration</Typography>
                 <Typography variant="h2" className={classes.stageText3}>1,5 months</Typography>
               </Paper>
             </Grid>
