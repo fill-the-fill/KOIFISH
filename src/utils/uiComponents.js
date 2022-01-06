@@ -389,8 +389,8 @@ export const useStyles = makeStyles((theme) => ({
     margin: "50px auto 0 auto !important",
     borderRadius: "15% !important",
     [theme.breakpoints.down("sm")]: {
-      height: "230px !important",
-      width: "230px !important",
+      height: "250px !important",
+      width: "250px !important",
     },
   },
   stageText: {
