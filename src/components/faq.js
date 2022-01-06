@@ -23,6 +23,30 @@ export default function Faq() {
                 {e.text4 ? (
                   <Typography variant="subtitle1">{e.text4}</Typography>
                 ) : null}
+                {e.text5 ? (
+                  <Typography variant="subtitle1">{e.text5}</Typography>
+                ) : null}
+                {e.text6 ? (
+                  <Typography variant="subtitle1">{e.text6}</Typography>
+                ) : null}
+                {e.text7 ? (
+                  <Typography variant="subtitle1">{e.text7}</Typography>
+                ) : null}
+                {e.text8 ? (
+                  <Typography variant="subtitle1">{e.text8}</Typography>
+                ) : null}
+                {e.text9 ? (
+                  <Typography variant="subtitle1">{e.text9}</Typography>
+                ) : null}
+                {e.text10 ? (
+                  <Typography variant="subtitle1">{e.text10}</Typography>
+                ) : null}
+                {e.text11 ? (
+                  <Typography variant="subtitle1">{e.text11}</Typography>
+                ) : null}
+                {e.text12 ? (
+                  <Typography variant="subtitle1">{e.text12}</Typography>
+                ) : null}
               </div>
             );
           })}

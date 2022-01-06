@@ -17,7 +17,7 @@ export default function Intro() {
   return (
     <div>
       <img alt="koiLogo" src={sm ? MobileLogo : LogoTest} className={classes.koiLogo}></img>
-      <Button className={classes.buyButton} ><a href="/" style={{textDecoration: 'none', color: 'white'}}>HOME</a></Button>
+      <Button className={classes.homeButton}><a href="/" style={{textDecoration: 'none', color: 'white'}}>HOME</a></Button>
     </div>
   );
 }

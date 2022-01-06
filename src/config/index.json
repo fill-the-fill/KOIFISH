@@ -12,7 +12,7 @@
         },
         "allocation": {
             "title": "TOKEN ALLOCATION",
-            "text": "Yamabuki or Golden Koi - a symbol of wealth, prosperity, and good fortune. A Chinese legend tells a story about a courageous school of fish and their difficult journey against the current of a Yellow river. When they reached the waterfall, many of them decided to turn back and let the stream carry them downstream. However, some of them remained at the bottom attempting to leap up the cascading water. For hundred years."
+            "text": "The tokens will be distributed between the following categories: Token Sale, ICO, Angels, Marketing, Bonus Programm and Founders. There will be a maximum supply of 580.000.000 of GKC Tokens with a total supply of 460.000.000. During Initial Coin Offering there will be 93.000.000 tokens overall. After ICO ALL GKC that has been left will be burned."
         },
         "history": {
             "title": "HISTORY",
@@ -40,50 +40,57 @@
         ]
     },
     "faq": [{
-            "title": "What is blockchain technology?",
-            "text": "The Bitcoin Network is the first successful implementation of blockchain technology",
-            "text2": "The term blockchain technology typically refers to the transparent, thrustless, publicly accessible ledger that allows us to securely transfer the ownership of units of value using public key encryption and proof of work methods.",
-            "text3": "The technology uses decentralized consensus to maintain the network, which means it is not centrally controlled by a bank, corporation, orgovernment. In fact, the larger the network grows and becomes increasingly decentralized, the more secure it becomes",
-            "text4": "The potential for blockchain technology is not limited to bitcoin. As such, it has gained a lot of attention in a variety of industries including financial services, charities and non-profits, the arts, and e-commerce."
+            "title": "On what blockchain GKC was made?",
+            "text": "KOI Token will be released on BEP20 Network (Binance Network)",
+            "text2": "Crypto token users, in general, are pegging their tokens to the BEP20 token standard to avail themselves of the low transaction speed. It provides tour investors with the crypto tokens that they can feel free to transact. This is way more beneficial for users and our investors instead of pegging to other platforms.",
+            "text3": "The Binance Smart Chain plays a role in making the BEP20 standard more beneficial. With the BEP20 token built-in Binance Smart Chain, it possesses all the features owned by BSC."
         }, {
-            "title": "Why do Stellar addresses have a minimum balance requirement?",
-            "text": "All Stellar addresses are required to keep a minimum balance of XLM at all times. The current minimum is 1 XLM, which is set by the Stellar network. The minimum balance requirement is in place in order to prevent people from overwhelming the network and to aid in prioritization. The first use of a new Stellar address must be to receive at least 1 XLM. This will activate the address and allow it to be used in further transactions on the network. You will never be able to send your entire balance from your Stellar address. That 1 XLM minimum will always have to be kept as a balance."
+            "title": "What are the benefits of Hybrid Exchange?",
+            "text1": "- Real-time service access",
+            "text2": "- Trading on centralized and decentralized platforms",
+            "text3": "- Addresses the pitfalls of centralized and decentralized crypto exchanges",
+            "text4": "- Complete control and custody of the funds ( It doesn't matter if third parties decide to regulate the exchange of cryptos.)",
+            "text5": "- Secure users' privacy",
+            "text6": "- Funds can be stored in hot or cold wallets",
+            "text7": "- Fast and transparent crypto transactions"
+
         }, {
-            "title": "Stellar transaction fees",
-            "text": "Like Bitcoin, Ethereum, and Bitcoin Cash, Stellar transactions involve fees. What’s different is how Stellar fees are determined, and how they are used. For each operation in a Stellar transaction, there is a base fee, which is a standard set by the network. The fee acts as a deterrent, ensuring that malicious actors cannot spam the network in a denial of service (DoS) attack. </Typography>",
-            "text2": "The base fee per operation is currently set to .00001 XLM. The more operations your transaction includes, the higher your fee will be. For example, if all you’re doing is sending XLM from one address to another, your fee will be .00001 XLM. However, if your transaction was more complex, like an exchange between currencies, then a higher fee would be required.",
-            "text3": "Since Stellar does not rely on mining to add transactions to the global ledger, transaction fees are pooled and then redistributed in the form of inflation. In Stellar’s protocol, new lumens (XLM) are added to the network at a rate of 1% each year via a built-in, fixed inflation mechanism. The inflation funds are sent to an address chosen by the network to receive it each week"
+            "title": "What benefits do GKC provide on the exchange?",
+            "text": "The GKC token will provide a lot of benefits to users who polzujutsja them on a daily basis: lower fee on the exchange, access to private NFT market, access to private groups and communities, events and much more in the future. And of course GOLD KOI COIN will provide more luck to the holders."
         },
         {
-            "title": "What is Stellar?",
+            "title": "How long will the ICO be?",
+            "text": "The duration of ICO will be 3 months"
+        },
+        {
+            "title": "What is the Benefits program during ICO?",
             "text": "Stellar is an open-source, decentralized payment protocol that allows for fast, cross-border transactions between any pair of currencies. Like other cryptocurrencies, it operates using blockchain technology. Its native asset, a digital currency, is called lumen (XLM). XLM powers the Stellar network and all its operations, similarly to how ether (ETH) powers the Ethereum network."
         },
         {
-            "title": "How does Stellar’s blockchain work?",
-            "text": "Stellar is an open-source, decentralized payment protocol that allows for fast, cross-border transactions between any pair of currencies. Like other cryptocurrencies, it operates using blockchain technology. Its native asset, a digital currency, is called lumen (XLM). XLM powers the Stellar network and all its operations, similarly to how ether (ETH) powers the Ethereum network."
+            "title": "How does Stellar's consensus method work?",
+            "text": "During ICO the benefits program combines 4 levels: Bronze,Silver,Gold, Platinum. All levels have benefits that they share.",
+            "text2": "they starts at 25000 GKC to infinity and shares benefits such as:",
+            "text3": "- Straight access to developers' team ",
+            "text4": "- Possibility to influence to the future features",
+            "text5": "- Access to the limited give away ",
+            "text6": "- Possibility to hold your coins and receive bonus every month during ICO",
+            "text7": "- Beta access to the future app",
+            "text8": "- Beta access to the future exchange",
+            "text9": "- You will get an exclusive access to became angel or investor in our future projects",
+            "text10": "- Special invitations to events and conferences",
+            "text11": "- Milestones",
+            "text12": "- In more details you can check out whitepaper"
         },
         {
-            "title": "How does Stellar’s consensus method work?",
-            "text": "Stellar is an open-source, decentralized payment protocol that allows for fast, cross-border transactions between any pair of currencies. Like other cryptocurrencies, it operates using blockchain technology. Its native asset, a digital currency, is called lumen (XLM). XLM powers the Stellar network and all its operations, similarly to how ether (ETH) powers the Ethereum network."
+            "title": "When will the final exchange release be?",
+            "text": "The final exchanse release is planned in 2 months after ICO, however during ICO users will be able to see demo, 1 first and second release."
         },
         {
-            "title": " Where is the value of Stellar derived from?",
-            "text": "Stellar is useful and valuable because it is a global exchange network, capable of hosting thousands of exchanges between currencies and tokens per second. Exchanging between cryptocurrencies and/or fiat currencies can be a lengthy and expensive process; Stellar makes exchanging swift and cheap. XLM, the asset that will be supported within the Blockchain.com Wallet, is used to pay transaction fees and maintain accounts on the Stellar network."
-        },
-        {
-            "title": "Public and private keys",
-            "text": "Bitcoin, as well as all other major cryptocurrencies that came after it, is built upon public-key cryptography, a cryptographic system that uses pairs of keys: public keys, which are publicly known and essential for identification, and private keys, which are kept secret and are used for authentication and encryption.",
-            "text2": "Major cryptocurrencies like Bitcoin, Ethereum, and Bitcoin Cash function using three fundamental pieces of information: the address, associated with a balance and used for sending and receiving funds, and the address’ corresponding public and private keys. The generation of a bitcoin address begins with the generation of a private key. From there, its corresponding public key can be derived using a known algorithm. The address, which can then be used in transactions, is a shorter, representative form of the public key.",
-            "text3": "The private key is what grants a cryptocurrency user ownership of the funds on a given address. The Blockchain wallet automatically generates and stores private keys for you. When you send from a Blockchain wallet, the software signs the transaction with your private key (without actually disclosing it), which indicates to the entire network that you have the authority to transfer the funds on the address you’re sending from.",
-            "text4": "The security of this system comes from the one-way street that is getting from the private key to the public address. It is not possible to derive the public key from the address; likewise, it is impossible to derive the private key from the public key. In the Blockchain.com Wallet, your 12-word Secret Private Key Recovery Phrase is a seed of all the private keys of all the addresses generated within the wallet. This is what allows you to restore access to your funds even if you lose access to your original wallet. Using the recovery phrase will allow you to recover your crypto."
-        },
-        {
-            "title": "What Is Soft Cap?",
-            "text": "Soft cap refers to the minimum defined limit for the collection of funds specified by a project's team for its fund-raising (ICO, IEO, etc.). It is speculative in nature and arbitrarily defined. This is in contrast to a hard cap, which is the maximum possible funding that a team is looking to collect."
-        },
-        {
-            "title": "What Is Hard Cap?",
-            "text": "A hard cap is the limit placed by a blockchain's code on the absolute maximum supply of a particular cryptocurrency, A hard cap doesn't allow any further creation/circulation of its units. It is generally understood to be positive in nature as it creates scarcity, which drives up the value of each token."
+            "title": "What is the idea behind the project?",
+            "text": "After years of working on several exchange platforms the idea of Gold Koi exchange was born.",
+            "text2": "After extensive research and feedback from technical and fundamental traders we discovered that the market lacks an effective platform for professional traders.",
+            "text3": "Therefore we decided to develop a solution and include all necessary features into our exchange.",
+            "text4": "As soon as the ICO will start we will complete the FAQ with more answers."
         }
     ],
     "privacy": [{

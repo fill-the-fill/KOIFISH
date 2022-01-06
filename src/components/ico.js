@@ -35,25 +35,38 @@ export default function ICO() {
             alignItems="center"
             spacing={2}
           >
-            <Grid item sm={6} md={2}>
+            <Grid item xs={12} sm={4}>
               <Paper elevation={0} className={classes.stageSquare}>
                 <div className={classes.stageText}>STAGE 1</div>
+                <div className={classes.stageText2}>Circulation Supply</div>
+                <div className={classes.stageText3}>10 000 000</div>
+                <div className={classes.stageText2}>Token Price</div>
+                <div className={classes.stageText3}>$ 0.0066</div>
+                <div className={classes.stageText2}>Duration</div>
+                <div className={classes.stageText3}>2 weeks</div>
               </Paper>
             </Grid>
 
-            <Grid item sm={6} md={2}>
-              <Paper elevation={0} className={classes.stageSquare}>
+            <Grid item xs={12} sm={4}>
+            <Paper elevation={0} className={classes.stageSquare}>
                 <div className={classes.stageText}>STAGE 2</div>
+                <div className={classes.stageText2}>Circulation Supply</div>
+                <div className={classes.stageText3}>33 000 000</div>
+                <div className={classes.stageText2}>Token Price</div>
+                <div className={classes.stageText3}>$ 0.022</div>
+                <div className={classes.stageText2}>Duration</div>
+                <div className={classes.stageText3}>1 month</div>
               </Paper>
             </Grid>
-            <Grid item sm={6} md={2}>
-              <Paper elevation={0} className={classes.stageSquare}>
+            <Grid item xs={12} sm={4}>
+            <Paper elevation={0} className={classes.stageSquare}>
                 <div className={classes.stageText}>STAGE 3</div>
-              </Paper>
-            </Grid>
-            <Grid item sm={6} md={2}>
-              <Paper elevation={0} className={classes.stageSquare}>
-                <div className={classes.stageText}>STAGE 4</div>
+                <div className={classes.stageText2}>Circulation Supply</div>
+                <div className={classes.stageText3}>33 000 000</div>
+                <div className={classes.stageText2}>Token Price</div>
+                <div className={classes.stageText3}>$ 0.033</div>
+                <div className={classes.stageText2}>Duration</div>
+                <div className={classes.stageText3}>1,5 months</div>
               </Paper>
             </Grid>
           </Grid>

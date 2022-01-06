@@ -83,6 +83,26 @@ export const useStyles = makeStyles((theme) => ({
       marginTop: "20px !important",
     },
   },
+  homeButton: {
+    width: '150px !important',
+    textAlign: "center !important",
+    color: "white !important",
+    border: "1px solid white !important",
+    borderRadius: "5px !important",
+    display: "block !important",
+    margin: "auto !important",
+    marginTop: "50px !important",
+    fontSize: "25px !important",
+    fontFamily: "futura",
+    "&:hover": {
+      backgroundColor: "#C3B96C !important",
+      border: "1px solid black !important",
+      color: "black !important",
+    },
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "20px !important",
+    },
+  },
   goldenTitleFish: {
     visibility: "hidden",
     display: "none",
@@ -303,7 +323,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   exchangeImages: {
-    textAlign: "right",
+    textAlign: "center",
     [theme.breakpoints.down("sm")]: {
       marginTop: 40,
     },
@@ -362,16 +382,33 @@ export const useStyles = makeStyles((theme) => ({
     width: "7%",
   },
   stageSquare: {
-    backgroundColor: "#897f4e !important",
-    height: "170px !important",
-    width: "170px !important",
+    backgroundColor: "#72878e !important",
+    opacity: '0.9',
+    height: "260px !important",
+    width: "260px !important",
     margin: "50px auto 0 auto !important",
-    borderRadius: "25% !important",
+    borderRadius: "15% !important",
   },
   stageText: {
     color: "#FFFFFF",
     fontFamily: "futura",
     fontSize: 30,
+    textAlign: "center",
+    marginBottom: 10,
+    fontWeight: 'bold',
+  },
+  stageText2: {
+    color: "#C3B96C",
+    fontFamily: "futura",
+    fontSize: 23,
+    textAlign: "center",
+    fontWeight: 'bold',
+    marginTop: 13,
+  },
+  stageText3: {
+    color: "#FFFFFF",
+    fontFamily: "futura",
+    fontSize: 27,
     textAlign: "center",
   },
 }));
