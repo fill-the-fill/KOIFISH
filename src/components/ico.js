@@ -37,36 +37,36 @@ export default function ICO() {
           >
             <Grid item xs={12} sm={4}>
               <Paper elevation={0} className={classes.stageSquare}>
-                <div className={classes.stageText}>STAGE 1</div>
-                <div className={classes.stageText2}>Circulation Supply</div>
-                <div className={classes.stageText3}>10 000 000</div>
-                <div className={classes.stageText2}>Token Price</div>
-                <div className={classes.stageText3}>$ 0.0066</div>
-                <div className={classes.stageText2}>Duration</div>
-                <div className={classes.stageText3}>2 weeks</div>
+                <Typography variant="h1" className={classes.stageText}>STAGE 1</Typography>
+                <Typography className={classes.stageText2}>Circulation Supply</Typography>
+                <Typography className={classes.stageText3}>10 000 000</Typography>
+                <Typography className={classes.stageText2}>Token Price</Typography>
+                <Typography className={classes.stageText3}>$ 0.0066</Typography>
+                <Typography className={classes.stageText2}>Duration</Typography>
+                <Typography className={classes.stageText3}>2 weeks</Typography>
               </Paper>
             </Grid>
 
             <Grid item xs={12} sm={4}>
             <Paper elevation={0} className={classes.stageSquare}>
-                <div className={classes.stageText}>STAGE 2</div>
-                <div className={classes.stageText2}>Circulation Supply</div>
-                <div className={classes.stageText3}>33 000 000</div>
-                <div className={classes.stageText2}>Token Price</div>
-                <div className={classes.stageText3}>$ 0.022</div>
-                <div className={classes.stageText2}>Duration</div>
-                <div className={classes.stageText3}>1 month</div>
+                <Typography className={classes.stageText}>STAGE 2</Typography>
+                <Typography className={classes.stageText2}>Circulation Supply</Typography>
+                <Typography className={classes.stageText3}>33 000 000</Typography>
+                <Typography className={classes.stageText2}>Token Price</Typography>
+                <Typography className={classes.stageText3}>$ 0.022</Typography>
+                <Typography className={classes.stageText2}>Duration</Typography>
+                <Typography className={classes.stageText3}>1 month</Typography>
               </Paper>
             </Grid>
             <Grid item xs={12} sm={4}>
             <Paper elevation={0} className={classes.stageSquare}>
-                <div className={classes.stageText}>STAGE 3</div>
-                <div className={classes.stageText2}>Circulation Supply</div>
-                <div className={classes.stageText3}>33 000 000</div>
-                <div className={classes.stageText2}>Token Price</div>
-                <div className={classes.stageText3}>$ 0.033</div>
-                <div className={classes.stageText2}>Duration</div>
-                <div className={classes.stageText3}>1,5 months</div>
+                <Typography className={classes.stageText}>STAGE 3</Typography>
+                <Typography className={classes.stageText2}>Circulation Supply</Typography>
+                <Typography className={classes.stageText3}>33 000 000</Typography>
+                <Typography className={classes.stageText2}>Token Price</Typography>
+                <Typography className={classes.stageText3}>$ 0.033</Typography>
+                <Typography className={classes.stageText2}>Duration</Typography>
+                <Typography className={classes.stageText3}>1,5 months</Typography>
               </Paper>
             </Grid>
           </Grid>
