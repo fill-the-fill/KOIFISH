@@ -98,11 +98,6 @@ export default function Header() {
                     <Typography variant="h2">Road Map</Typography>
                   </a>
                 </Grid>
-                {/* <Grid item>
-                  <a className={classes.headerHref} href="/#statistics">
-                    <Typography variant="h2">Statistics</Typography>
-                  </a>
-                </Grid> */}
                 <Grid item>
                   <a className={classes.headerHref} href="/#team">
                     <Typography variant="h2">Team</Typography>
@@ -111,7 +106,7 @@ export default function Header() {
                 <Grid item>
                   <a
                     className={classes.headerHref}
-                    href="mailto:info@goldkoicoin.com"
+                    href="/contact"
                   >
                     <Typography variant="h2">Contact Us</Typography>
                   </a>
