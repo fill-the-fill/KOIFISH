@@ -3,7 +3,7 @@ import { useStyles } from "../utils/uiComponents";
 import data from "../config/index.json";
 import { Grid, Typography } from "@material-ui/core/";
 
-import { styled } from '@mui/material/styles';
+import { styled } from '@mui/styles';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
@@ -12,11 +12,14 @@ import MuiAccordionDetails from '@mui/material/AccordionDetails';
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
-  background: 'none',
-  '&:not(:last-child)': {
+  background: 'none !important',
+  '&:not(:first-child)': {
     borderBottom: 0,
+
   },
   '&:before': {
+    background: 'none',
+
     display: 'none',
   },
 }));
@@ -34,12 +37,12 @@ const AccordionSummary = styled((props) => (
     transform: 'rotate(90deg)',
   },
   '& .MuiAccordionSummary-content': {
-    marginLeft: theme.spacing(1),
+    marginLeft: 10,
   },
 }));
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
-  padding: theme.spacing(2),
+  padding: 20,
 }));
 
 export default function CustomizedAccordions() {
