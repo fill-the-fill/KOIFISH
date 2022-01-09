@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { useStyles } from "../utils/uiComponents";
-import { Grid, Button, Typography, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from "@material-ui/core";
+import { Grid, Button, Typography, Dialog, DialogActions, DialogContent, DialogContentText } from "@material-ui/core";
 import emailjs from "emailjs-com"
 
 export default function ContactUs() {
