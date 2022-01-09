@@ -40,7 +40,7 @@ const menulists = [
   {
     id: 8,
     name: "Contact Us",
-    link: "mailto:info@goldkoicoin.com",
+    link: "/Contact",
   },
 ];
   
