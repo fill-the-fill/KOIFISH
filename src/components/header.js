@@ -135,7 +135,7 @@ export default function Header() {
                 <Grid item>
                   <a
                     className={classes.headerHref}
-                    href="mailto:info@goldkoicoin.com"
+                    href="/contact"
                   >
                     <Typography variant="h2">Contact Us</Typography>
                   </a>

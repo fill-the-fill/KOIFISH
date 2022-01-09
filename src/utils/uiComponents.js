@@ -410,4 +410,41 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: '27px !important',
     textAlign: "center",
   },
+  contactTypography: {
+    color: "#FFFFFF",
+    fontSize: 27
+  },
+
+  contactTextfield: {
+    width: '100%',
+    color: '#ffff',
+    border: '2px solid rgba(178,178,178, 0.5)',
+    borderRadius: 10,
+    margin: '8px 0',
+    outline: 'none',
+    padding: 15,
+    boxSizing: 'border-box',
+    background: 'rgba(178,178,178, 0.5)',
+    "&:hover": {
+          borderColor:'#C3B96C',
+    },
+  },
+
+  contactTextfieldText: {    
+    color: '#ffff',
+    border: '2px solid rgba(178,178,178, 0.5)',
+    borderRadius: 10,
+    margin: '8px 0',
+    outline: 'none',
+    boxSizing: 'border-box',
+    background: 'rgba(178,178,178, 0.5)',
+    width: '100%',
+    height: '150px',
+    padding: '12px 20px',
+    resize: 'none',
+    "&:hover": {
+      borderColor:'#C3B96C',
+},
+  }
+
 }));

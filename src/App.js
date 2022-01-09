@@ -5,6 +5,7 @@ import landingPage from "../src/pages/landing";
 import privacyPolicyPage from "../src/pages/privacyPolicy";
 import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
 import faqPage from "../src/pages/faq";
+import contactPage from "../src/pages/contact"
 import { FiChevronUp } from "react-icons/fi";
 import "./App.css";
 
@@ -84,6 +85,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={landingPage} />
+          <Route exact path="/contact" component={contactPage} />
           <Route exact path="/privacy-policy" component={privacyPolicyPage} />
           <Route exact path="/faq" component={faqPage} />
         </Switch>
