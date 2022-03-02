@@ -11,7 +11,6 @@ import "./App.css";
 
 const breakpoints = createBreakpoints({})
 
-
 const mainTheme = createTheme({
   shadows: ["none"],
   typography: {

@@ -2,8 +2,6 @@ import React from "react";
 import { Grid, Button, Typography } from "@material-ui/core";
 import { useStyles } from "../utils/uiComponents";
 import data from "../config/index.json";
-import exchangeImg from "../utils/images/exchange.jpeg";
-import exchangeImg2 from "../utils/images/exchange2.jpeg";
 import GoldenFish from "../utils/images/fish.png";
 import exchange from "../utils/images/devices.png"
 
